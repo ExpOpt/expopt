@@ -275,6 +275,26 @@
         "dblp_key": null,
         "bibtex": null}
 ]
+      },
+
+{
+    "title": "EXALT: EXplainable ALgorithmic Tools for Optimization Problems.",
+    "authors": " Bączek, Zuzanna ; Bizoń, Michał ; Pawelec, Aneta ; Sankowski, Piotr",
+    "labels": [
+      "algorithms",
+	"explainability",
+"optimization"
+    ],
+    "publications": [
+      {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2503.05789",
+        "year": 2025,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null}
+]
       }
 
 
