@@ -4,7 +4,9 @@
     "authors": "Kurtz, Jannis, Ş. İlker Birbil, and Dick den Hertog",
     "labels": [
       "counterfactual explanations",
-      "linear optimization"
+      "Linear optimization",
+"bilinear optimization",
+"inverse optimization"
     ],
     "publications": [
       {
@@ -39,17 +41,95 @@
       },
 
 {
-    "title": "Coherent Local Explanations for Mathematical Optimization",
-    "authors": "Daan Otto, Jannis Kurtz, and Ş. İlker Birbil",
+    "title": "Explainable data-driven optimization: from context to decision and back again.",
+    "authors": "Alexandre Forel, Axel Parmentier, and Thibaut Vidal",
     "labels": [
-      "feature importance",
-      "optimization",
-	"coherence"
+      "counterfactual explanations",
+      "context information",
+	"optimization"
+    ],
+    "publications": [
+      {
+        "name": "International Conference on Machine Learning",
+        "url": "https://proceedings.mlr.press/v202/forel23a.html",
+        "year": 2023,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null}
+]
+      },
+
+{
+    "title": "Objective-based counterfactual explanations for linear discrete optimization.",
+    "authors": "Anton Korikov, and J. Christopher Beck",
+    "labels": [
+      "counterfactual explanations",
+	"discrete optimization"
+    ],
+    "publications": [
+      {
+        "name": "International Conference on Integration of Constraint Programming",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-33271-5_2",
+        "year": 2023,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null}
+]
+      },
+
+{
+    "title": "Counterfactual explanations for optimization-based decisions in the context of the GDPR.",
+    "authors": "Anton Korikov, Alexander Shleyfman, and J. Christopher Beck",
+    "labels": [
+      "counterfactual explanations",
+	"discrete optimization"
+    ],
+    "publications": [
+      {
+        "name": "ICAPS 2021 workshop on explainable AI planning",
+        "url": "https://openreview.net/forum?id=YiR1NIojU2q",
+        "year": 2021,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null}
+]
+      },
+
+{
+    "title": "Counterfactual explanations via inverse constraint programming.",
+    "authors": "Anton Korikov, and J. Christopher Beck",
+    "labels": [
+      "counterfactual explanations",
+	"discrete optimization",
+	"constraint programming",
+	"inverse optimization"
+    ],
+    "publications": [
+      {
+        "name": "27th International Conference on Principles and Practice of Constraint Programming",
+        "url": "https://doi.org/10.4230/LIPIcs.CP.2021.35",
+        "year": 2021,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null}
+]
+      },
+
+{
+    "title": "Feature Selection for Data-Driven Explainable Optimization.",
+    "authors": "Kevin-Martin Aigner, Marc Goerigk, Michael Hartisch, Frauke Liers, Arthur Miehlich, and Florian Rösel",
+    "labels": [
+      "feature selection",
+	"data-driven"
     ],
     "publications": [
       {
         "name": "arXiv",
-        "url": "https://arxiv.org/abs/2502.04840",
+        "url": "https://arxiv.org/abs/2504.12184",
         "year": 2025,
         "month": null,
         "day": null,
@@ -57,5 +137,6 @@
         "bibtex": null}
 ]
       }
+
 
  ]
