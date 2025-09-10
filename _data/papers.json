@@ -276,8 +276,25 @@
         "dblp_key": null,
         "bibtex": null}
 ]
+      },
+
+{
+    "title": "Argumentation for explainable scheduling.",
+    "authors": " Kristijonas Čyras, Dimitrios Letsios, Ruth Misener, Francesca Toni",
+    "labels": [
+      "explainability",
+	"scheduling"
+    ],
+    "publications": [
+      {
+        "name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "url": "https://doi.org/10.1609/aaai.v33i01.33012752",
+        "year": 2019,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null}
+]
       }
-
-
 
  ]
