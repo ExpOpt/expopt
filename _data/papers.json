@@ -1,4 +1,21 @@
 [
+{
+    "title": "Counterfactual explanations for linear optimization",
+    "authors": "Kurtz, Jannis, Ş. İlker Birbil, and Dick den Hertog",
+    "labels": [
+      "counterfactual explanations",
+      "linear optimization"
+    ],
+    "publications": [
+      {
+        "name": "European Journal of Operational Research",
+        "url": "https://doi.org/10.1016/j.ejor.2025.06.016",
+        "year": 2025,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null
+      },
   {
     "title": "Improved Frequency Estimation Algorithms with and without Predictions",
     "authors": "Aamand, Chen, Nguyen, Silwal, Vakilian",
