@@ -17,157 +17,45 @@
         "bibtex": null}
 ]
       },
-  {
-    "title": "Improved Frequency Estimation Algorithms with and without Predictions",
-    "authors": "Aamand, Chen, Nguyen, Silwal, Vakilian",
+
+{
+    "title": "Coherent Local Explanations for Mathematical Optimization",
+    "authors": "Daan Otto, Jannis Kurtz, and Ş. İlker Birbil",
     "labels": [
-      "streaming",
-      "parsimonious / succinct"
-    ],
-    "publications": [
-      {
-        "name": "NeurIPS",
-        "url": "https://arxiv.org/abs/2312.07535",
-        "year": 2023,
-        "month": null,
-        "day": null,
-        "dblp_key": "conf/nips/AamandCNSV23",
-        "bibtex": "@inproceedings{DBLP:conf/nips/AamandCNSV23,\n  author       = {Anders Aamand and\n                  Justin Y. Chen and\n                  Huy L{\\^{e}} Nguyen and\n                  Sandeep Silwal and\n                  Ali Vakilian},\n  title        = {Improved Frequency Estimation Algorithms with and without Predictions},\n  booktitle    = {NeurIPS},\n  year         = {2023}\n}"
-      },
-      {
-        "name": "arXiv",
-        "url": "https://arxiv.org/abs/2312.07535",
-        "year": 2023,
-        "month": 12,
-        "day": 12,
-        "dblp_key": null,
-        "bibtex": null
-      }
-    ]
-  },
-  {
-    "title": "Learning-Augmented Dynamic Submodular Maximization",
-    "authors": "Agarwal, Balkanski",
-    "labels": [
-      "dynamic / data structure",
-      "running time",
-      "submodular maximization"
+      "feature importance",
+      "optimization",
+	"coherence"
     ],
     "publications": [
       {
         "name": "arXiv",
-        "url": "https://arxiv.org/abs/2311.13006",
-        "year": 2023,
-        "month": 11,
-        "day": 21,
-        "dblp_key": null,
-        "bibtex": null
-      },
-      {
-        "name": "NeurIPS",
-        "url": "http://papers.nips.cc/paper_files/paper/2024/hash/19cdab1dee61d55158cf106244ceab08-Abstract-Conference.html",
-        "year": 2024,
-        "month": null,
-        "day": null,
-        "dblp_key": "conf/nips/AgarwalB24",
-        "bibtex": "@inproceedings{DBLP:conf/nips/AgarwalB24,\n  author       = {Arpit Agarwal and\n                  Eric Balkanski},\n  title        = {Learning-Augmented Dynamic Submodular Maximization},\n  booktitle    = {NeurIPS},\n  year         = {2024}\n}"
-      }
-    ]
-  },
-  {
-    "title": "An electromagnetism-like mechanism for global optimization",
-    "authors": "Şİ Birbil, SC Fang",
-    "labels": [
-      "global optimization",
-      "electromagnetism"
-    ],
-    "publications": [
-      {
-        "name": "Journal of Global Optimization",
-        "url": null,
-        "year": 2003,
-        "month": null,
-        "day": null,
-        "dblp_key": null,
-        "bibtex": null
-      }
-    ]
-  },
-  {
-    "title": "On the convergence of a population-based global optimization algorithm",
-    "authors": "Şİ Birbil, SC Fang, RL Sheu",
-    "labels": [
-      "global optimization",
-      "population-based methods"
-    ],
-    "publications": [
-      {
-        "name": "Journal of Global Optimization",
-        "url": null,
-        "year": 2004,
-        "month": null,
-        "day": null,
-        "dblp_key": null,
-        "bibtex": null
-      }
-    ]
-  },
-  {
-    "title": "Hybrid heuristics for the capacitated lot sizing and loading problem with setup times and overtime decisions",
-    "authors": "L Özdamar, Şİ Birbil",
-    "labels": [
-      "heuristics",
-      "lot sizing",
-      "loading problem"
-    ],
-    "publications": [
-      {
-        "name": "European Journal of Operational Research",
-        "url": null,
-        "year": 1998,
-        "month": null,
-        "day": null,
-        "dblp_key": null,
-        "bibtex": null
-      }
-    ]
-  },
-  {
-    "title": "A hierarchical decision support system for production planning (with case study)",
-    "authors": "L Özdamar, MA Bozyel, SI Birbil",
-    "labels": [
-      "decision support",
-      "production planning"
-    ],
-    "publications": [
-      {
-        "name": "European Journal of Operational Research",
-        "url": null,
-        "year": 1998,
-        "month": null,
-        "day": null,
-        "dblp_key": null,
-        "bibtex": null
-      }
-    ]
-  },
-  {
-    "title": "Mixed-integer optimization with constraint learning",
-    "authors": "D Maragno, H Wiberg, D Bertsimas, Şİ Birbil, D den Hertog, AO Fajemisin",
-    "labels": [
-      "mixed-integer optimization",
-      "constraint learning"
-    ],
-    "publications": [
-      {
-        "name": "Operations Research",
-        "url": null,
+        "url": "https://arxiv.org/abs/2502.04840",
         "year": 2025,
         "month": null,
         "day": null,
         "dblp_key": null,
-        "bibtex": null
-      }
-    ]
-  }
+        "bibtex": null}
 ]
+      },
+
+{
+    "title": "Coherent Local Explanations for Mathematical Optimization",
+    "authors": "Daan Otto, Jannis Kurtz, and Ş. İlker Birbil",
+    "labels": [
+      "feature importance",
+      "optimization",
+	"coherence"
+    ],
+    "publications": [
+      {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2502.04840",
+        "year": 2025,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null}
+]
+      }
+
+ ]
