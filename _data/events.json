@@ -1,0 +1,16 @@
+[
+  {
+    "title": "AI Symposium 2025",
+    "date": "2025-10-15",
+    "location": "Istanbul, Turkey",
+    "description": "A symposium bringing together leading researchers in Artificial Intelligence to discuss the latest advancements and applications.",
+    "link": "https://example.com/ai-symposium-2025"
+  },
+  {
+    "title": "Data Science Workshop",
+    "date": "2025-11-05",
+    "location": "Online",
+    "description": "A hands-on workshop covering modern data science tools and techniques for students and professionals.",
+    "link": "https://example.com/data-science-workshop"
+  }
+]

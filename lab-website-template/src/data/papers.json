@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Understanding Machine Learning: From Theory to Algorithms",
+        "authors": ["Shai Shalev-Shwartz", "Shai Ben-David"],
+        "abstract": "This book provides a comprehensive introduction to the field of machine learning, covering both theoretical foundations and practical algorithms.",
+        "link": "https://www.example.com/understanding-machine-learning"
+    },
+    {
+        "title": "Deep Learning",
+        "authors": ["Ian Goodfellow", "Yoshua Bengio", "Aaron Courville"],
+        "abstract": "Deep Learning is a comprehensive textbook on the theory and practice of deep learning, covering a wide range of topics.",
+        "link": "https://www.example.com/deep-learning"
+    },
+    {
+        "title": "Pattern Recognition and Machine Learning",
+        "authors": ["Christopher M. Bishop"],
+        "abstract": "This book provides a comprehensive introduction to the fields of pattern recognition and machine learning.",
+        "link": "https://www.example.com/pattern-recognition"
+    },
+    {
+        "title": "Artificial Intelligence: A Modern Approach",
+        "authors": ["Stuart Russell", "Peter Norvig"],
+        "abstract": "This book is a comprehensive introduction to the theory and practice of artificial intelligence.",
+        "link": "https://www.example.com/artificial-intelligence"
+    },
+    {
+        "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+        "authors": ["Trevor Hastie", "Robert Tibshirani", "Jerome Friedman"],
+        "abstract": "This book provides an overview of the field of statistical learning, covering a wide range of methods and applications.",
+        "link": "https://www.example.com/statistical-learning"
+    }
+]

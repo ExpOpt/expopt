@@ -1,0 +1,15 @@
+{
+  "name": "lab-website-template",
+  "version": "1.0.0",
+  "description": "A template for a lab website that displays a list of research papers.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "author": "",
+  "license": "ISC"
+}

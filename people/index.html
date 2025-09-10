@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>People</title>
+  <style>
+    html, body, * {
+      font-family: 'Barlow', 'Segoe UI', Arial, sans-serif !important;
+    }
+    body { background: #f7f7f7; margin: 0; }
+    .alps-header { background: #111; color: #fff; margin: 0 0 24px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+    .alps-header-bar { display: flex; align-items: center; padding: 0 24px; height: 64px; }
+    .alps-title { font-size: 2rem; font-weight: bold; margin-right: 32px; color: #fff; text-decoration: none; }
+    .alps-nav { display: flex; gap: 8px; }
+    .alps-nav a { color: #fff; text-decoration: none; font-weight: 500; padding: 8px 16px; border-radius: 4px; transition: background 0.2s; }
+    .alps-nav a:hover { background: #1976d2; }
+    .people-md-container { max-width: 900px; margin: 48px auto; background: #fff; border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.07); padding: 36px 28px; }
+    .people-md-container h1 { color: #1976d2; }
+    .person-list { margin: 36px 0 0 0; }
+    .person-card { display: flex; align-items: flex-start; background: #f7f7f7; border-radius: 12px; box-shadow: 0 1px 6px rgba(0,0,0,0.04); margin-bottom: 28px; padding: 24px 20px; }
+    .person-photo { flex: 0 0 110px; display: flex; align-items: center; justify-content: center; }
+    .person-photo img { width: 100px; height: 100px; object-fit: cover; border-radius: 50%; border: 2px solid #1976d2; background: #eee; }
+    .person-info { flex: 1 1 0; font-size: 1.08em; color: #222; line-height: 1.7; padding-left: 28px; }
+    .person-info b, .person-info strong { color: #1976d2; font-size: 1.08em; }
+    .person-info a { color: #1976d2; text-decoration: none; }
+    .person-info a:hover { text-decoration: underline; }
+    @media (max-width: 900px) { .people-md-container { padding: 18px 4vw; } .alps-header-bar { flex-direction: column; height: auto; padding: 12px 4vw; } .alps-title { margin-bottom: 8px; } .person-photo { flex-basis: 70px; } .person-photo img { width: 70px; height: 70px; } .person-info { padding-left: 14px; } }
+  </style>
+</head>
+<body>
+  <div class="alps-header">
+    <div class="alps-header-bar">
+  <a class="alps-title" href="/" style="display:flex;align-items:center;"><img src="/images/logo.png" alt="ExpOpt Logo" style="height:40px;width:auto;display:block;"></a>
+      <nav class="alps-nav">
+        <a href="/">Home</a>
+        <a href="/events/">Events</a>
+        <a href="/papers/">Publications</a>
+        <a href="/software/">Software</a>
+        <a href="/people/">People</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </div>
+  </div>
+  <div class="people-md-container">
+    <h1>People</h1>
+    <div style="margin-bottom:24px;color:#444;font-size:1.13em;">Meet our team:</div>
+    <div class="person-list">
+      <div class="person-card">
+        <div class="person-photo"><img src="https://sibirbil.github.io/images/sib.png" alt="Prof. John Doe"></div>
+        <div class="person-info">
+          <b>Name:</b> Prof. John Doe<br>
+          <b>Expertise:</b> Artificial Intelligence<br>
+          <b>Title:</b> Professor<br>
+          <b>Email:</b> <a href="mailto:john.doe@example.com">john.doe@example.com</a>
+        </div>
+      </div>
+      <div class="person-card">
+        <div class="person-photo"><img src="https://via.placeholder.com/100" alt="Dr. Jane Doe"></div>
+        <div class="person-info">
+          <b>Name:</b> Dr. Jane Doe<br>
+          <b>Expertise:</b> Data Science<br>
+          <b>Title:</b> Associate Professor<br>
+          <b>Email:</b> <a href="mailto:jane.doe@example.com">jane.doe@example.com</a>
+        </div>
+      </div>
+      <div class="person-card">
+        <div class="person-photo"><img src="https://via.placeholder.com/100" alt="Dr. Alex Smith"></div>
+        <div class="person-info">
+          <b>Name:</b> Dr. Alex Smith<br>
+          <b>Expertise:</b> Machine Learning<br>
+          <b>Title:</b> Assistant Professor<br>
+          <b>Email:</b> <a href="mailto:alex.smith@example.com">alex.smith@example.com</a>
+        </div>
+      </div>
+      <div class="person-card">
+        <div class="person-photo"><img src="https://via.placeholder.com/100" alt="Dr. Emily Brown"></div>
+        <div class="person-info">
+          <b>Name:</b> Dr. Emily Brown<br>
+          <b>Expertise:</b> Optimization<br>
+          <b>Title:</b> Research Scientist<br>
+          <b>Email:</b> <a href="mailto:emily.brown@example.com">emily.brown@example.com</a>
+        </div>
+      </div>
+    </div>
+    <hr style="margin:32px 0 18px 0; border:none; border-top:1.5px solid #e0e0e0;"/>
+    <div style="font-size:1.08em; color:#444; margin-bottom:10px;">For collaboration or inquiries, see the <a href="/contact/">Contact</a> page.</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications</title>
+  <link rel="stylesheet" href="/_styles/citation.css">
+  <link rel="stylesheet" href="/_styles/tags.css">
+  <link rel="stylesheet" href="/_styles/button.css">
+  <style>
+    html, body, * {
+      font-family: 'Barlow', 'Segoe UI', Arial, sans-serif !important;
+    }
+    body {
+      margin: 0;
+      background: #f7f7f7;
+    }
+    .alps-header {
+      background: #111;
+      color: #fff;
+      padding: 0;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .alps-header-bar {
+      display: flex;
+      align-items: center;
+      padding: 0 24px;
+      height: 64px;
+    }
+    .alps-title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-right: 32px;
+      color: #fff !important;
+      text-decoration: none !important;
+      cursor: pointer;
+    }
+    .alps-title:visited {
+      color: #fff !important;
+    }
+    .alps-title:hover {
+      color: #fff !important;
+      text-decoration: none !important;
+    }
+    .alps-nav {
+      display: flex;
+      gap: 8px;
+    }
+    .alps-nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      padding: 8px 16px;
+      border-radius: 4px;
+      transition: background 0.2s;
+    }
+    .alps-nav a:hover {
+      background: #607d8b;
+    }
+    .paperlist-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      padding: 24px 24px 32px 24px;
+      display: flex;
+      flex-direction: row;
+      gap: 32px;
+    }
+    .paperlist-main {
+      flex: 1 1 0;
+      min-width: 0;
+    }
+    .paperlist-controls {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+    }
+    .paperlist-slider {
+      flex: 1 1 0;
+      min-width: 220px;
+      max-width: 350px;
+      margin-right: 12px;
+    }
+    .slider-labels {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.95em;
+      color: #888;
+      margin-top: 2px;
+      margin-bottom: 8px;
+    }
+    .paperlist-sort {
+      min-width: 140px;
+      font-size: 1em;
+      padding: 6px 12px;
+      border-radius: 6px;
+      border: 1px solid #bbb;
+      background: #f7f7f7;
+      color: #333;
+    }
+    .paperlist-count {
+      font-size: 1.1em;
+      color: #444;
+      margin-left: 8px;
+    }
+    .reset-btn {
+      background: #e53935;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 7px 18px;
+      font-size: 1em;
+      font-weight: 500;
+      cursor: pointer;
+      margin-left: 12px;
+      transition: background 0.2s;
+    }
+    .reset-btn:hover {
+      background: #b71c1c;
+    }
+    .paperlist-list {
+      margin-top: 12px;
+    }
+    .paperlist-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 18px;
+      padding: 18px 0 10px 0;
+      border-bottom: 1px solid #eee;
+    }
+    .paperlist-item:last-child {
+      border-bottom: none;
+    }
+    .paper-title {
+      font-weight: bold;
+      font-size: 1em;
+      margin-bottom: 2px;
+      color: #222;
+      text-decoration: none;
+    }
+    .paper-title:hover {
+      text-decoration: underline;
+    }
+    .paper-authors {
+      color: #888;
+      font-size: 0.92em;
+      margin-bottom: 2px;
+    }
+    .paper-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 2px;
+    }
+    .chip {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 999px;
+      font-size: 0.91em;
+      font-weight: 500;
+      background: #eee;
+      color: #444;
+      cursor: pointer;
+      user-select: none;
+      border: none;
+      transition: background 0.2s, color 0.2s;
+    }
+    .chip.type {
+      background: #43a047;
+      color: #fff;
+    }
+    .chip.prior {
+      background: #fff;
+      color: #666;
+      border: 1.5px solid #bbb;
+    }
+    .chip.selected {
+      background: #1976d2;
+      color: #fff;
+    }
+    .chip.pub {
+      background: #ffb300;
+      color: #fff;
+      font-weight: 600;
+      border: 1.5px solid #ffb300;
+    }
+    .chip.pub[variant="outlined"] {
+      background: #fff3e0;
+      color: #ff9800;
+      border: 1.5px solid #ffb300;
+    }
+    .sidebar {
+      min-width: 220px;
+      max-width: 260px;
+      padding-left: 12px;
+      border-left: 1.5px solid #e0e0e0;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .sidebar-label {
+      font-size: 0.98em;
+      font-weight: bold;
+      margin-bottom: 6px;
+      color: #111;
+    }
+    .sidebar-chips {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    @media (max-width: 900px) {
+      .paperlist-container {
+        flex-direction: column;
+        gap: 0;
+        padding: 10px 2vw 24px 2vw;
+      }
+      .sidebar {
+        border-left: none;
+        border-top: 1.5px solid #e0e0e0;
+        margin-top: 24px;
+        padding-left: 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+      .sidebar-chips {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="alps-header">
+    <div class="alps-header-bar">
+  <a class="alps-title" href="/" style="display:flex;align-items:center;"><img src="/images/logo.png" alt="ExpOpt Logo" style="height:40px;width:auto;display:block;"></a>
+      <nav class="alps-nav">
+        <a href="/">Home</a>
+        <a href="/events/">Events</a>
+        <a href="/papers/">Publications</a>
+        <a href="/software/">Software</a>
+        <a href="/people/">People</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </div>
+  </div>
+  <div class="paperlist-container">
+    <div class="paperlist-main">
+      <div class="paperlist-controls">
+        <label for="year-start" style="font-weight:500;margin-right:4px;">Start:</label>
+        <select id="year-start" class="paperlist-sort" style="min-width:80px;"></select>
+        <label for="year-end" style="font-weight:500;margin:0 4px 0 12px;">End:</label>
+        <select id="year-end" class="paperlist-sort" style="min-width:80px;"></select>
+        <select id="sort-filter" class="paperlist-sort">
+          <option value="desc">Newest first</option>
+          <option value="asc">Oldest first</option>
+        </select>
+        <span class="paperlist-count" id="paper-count"></span>
+        <button class="reset-btn" id="reset-filters" style="display:none;">Reset</button>
+      </div>
+      <div class="paperlist-list" id="papers-list"></div>
+    </div>
+    <div class="sidebar">
+      <div class="sidebar-label">Filter by label</div>
+      <div class="sidebar-chips" id="chip-filters"></div>
+    </div>
+  </div>
+  <style>
+  .alps-slider {
+    position: relative; width: 100%; max-width: 360px; margin: 0 auto; height: 48px; user-select: none;
+  }
+  .alps-slider__track {
+    position: relative; width: 100%; height: 8px; background: #e0e0e0; border-radius: 4px; margin-top: 18px;
+  }
+  .alps-slider__fill {
+    position: absolute; height: 8px; background: #1976d2; border-radius: 4px; top: 0;
+  }
+  .alps-slider__input {
+    position: absolute; top: 0; left: 0; width: 100%; height: 44px; opacity: 0; pointer-events: all; margin: 0;
+  }
+  .alps-slider__thumb {
+    position: absolute; top: -6px; width: 20px; height: 20px; border-radius: 50%; background: #455a64;
+    border: 2px solid #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.18); cursor: pointer; z-index: 2;
+    display: flex; align-items: center; justify-content: center; transition: background 0.2s;
+  }
+  .alps-slider__thumb:focus {
+    outline: 2px solid #1976d2;
+    background: #1976d2;
+  }
+  .alps-slider__thumb--min { z-index: 3; }
+  .alps-slider__thumb--max { z-index: 3; }
+  .alps-slider-labels {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 22px;
+    margin-top: 32px;
+    margin-bottom: 0;
+    font-size: 13px;
+    color: #555;
+    pointer-events: none;
+    user-select: none;
+    z-index: 10;
+  }
+  .alps-slider-labels .alps-slider-label {
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    background: #fff;
+    padding: 0 4px;
+    border-radius: 4px;
+    min-width: 22px;
+    text-align: center;
+    pointer-events: none;
+    user-select: none;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.5px;
+  }
+  @media (max-width: 400px) {
+    .alps-slider { max-width: 100%; }
+    .alps-slider-labels { font-size: 12px; }
+    .alps-slider__thumb { width: 16px; height: 16px; }
+  }
+  </style>
+  <script>
+    // --- PaperList logic ---
+    // TYPE_LABELS, PRIOR_LABEL already declared above
+    let papers = [];
+    // selectedLabels already declared above
+  let yearMin = 0, yearMax = 0, yearRange = [0,0], allYears = [];
+  let allLabels = [];
+    // Fetch and preprocess papers
+    fetch('/_data/papers.json')
+      .then(r => r.json())
+      .then(data => {
+        papers = data.filter(p => typeof p === 'object' && p.title);
+        // Extract all years from publications and paper.year
+        allYears = Array.from(new Set(papers.flatMap(p => {
+          let years = [];
+          if (Array.isArray(p.publications)) years.push(...p.publications.map(pub => pub.year).filter(Boolean));
+          if (p.year) years.push(p.year);
+          return years;
+        }))).filter(Boolean).sort((a,b)=>a-b);
+        yearMin = allYears[0] || 2000;
+        yearMax = allYears[allYears.length-1] || 2025;
+        yearRange = [yearMin, yearMax];
+        allLabels = Array.from(new Set(papers.flatMap(p => Array.isArray(p.labels) ? p.labels : [])));
+        // Populate dropdowns
+        const startSel = document.getElementById('year-start');
+        const endSel = document.getElementById('year-end');
+        startSel.innerHTML = '';
+        endSel.innerHTML = '';
+        allYears.forEach(y => {
+          startSel.innerHTML += `<option value="${y}">${y}</option>`;
+          endSel.innerHTML += `<option value="${y}">${y}</option>`;
+        });
+        startSel.value = yearMin;
+        endSel.value = yearMax;
+        startSel.onchange = endSel.onchange = function() {
+          let start = parseInt(startSel.value);
+          let end = parseInt(endSel.value);
+          if (start > end) {
+            // Swap if needed
+            [start, end] = [end, start];
+            startSel.value = start;
+            endSel.value = end;
+          }
+          yearRange = [start, end];
+          renderPapers();
+        };
+        renderFilters();
+        renderPapers();
+      });
+
+  // Slider label rendering removed for dropdown version
+    function renderLabels() {
+      const labelsCont = document.getElementById('year-slider-labels');
+      if (!labelsCont) return;
+      labelsCont.innerHTML = '';
+      const minGap = 32; // px
+      const n = years.length <= 7 ? years.length : Math.max(6, Math.min(10, years.length));
+      let idxs = [];
+      for (let i = 0; i < n; ++i) idxs.push(Math.round(i*(years.length-1)/(n-1)));
+      // Get track position relative to parent
+      const sliderTrack = container.querySelector('.alps-slider__track');
+      const parentRect = container.getBoundingClientRect();
+      const trackRect = sliderTrack ? sliderTrack.getBoundingClientRect() : {left:0, width:container.offsetWidth};
+      const trackLeft = trackRect.left - parentRect.left;
+      const trackW = trackRect.width || container.offsetWidth;
+      // Calculate pixel positions for each label (relative to container)
+      let labelPos = idxs.map(idx => trackLeft + Math.round((idx/(years.length-1))*trackW));
+      // Seyrelt: soldan sağa, minGap'ten yakın olanları atla (ilk ve son hariç)
+      let filtered = [];
+      let lastX = -Infinity;
+      for (let i = 0; i < idxs.length; ++i) {
+        if (i === 0 || i === idxs.length-1 || labelPos[i] - lastX >= minGap) {
+          filtered.push({idx: idxs[i], px: labelPos[i]});
+          lastX = labelPos[i];
+        }
+      }
+      // Render
+      let html = '';
+      for (const {idx, px} of filtered) {
+        html += `<span class="alps-slider-label" style="left:${px}px">'${String(years[idx]).slice(-2)}</span>`;
+      }
+      labelsCont.innerHTML = `<div class="alps-slider-labels">${html}</div>`;
+    }
+      let years = [];
+      let selectedLabels = [];
+      let selectedYearRange = [];
+      let sortOrder = 'desc';
+      let sliderApi = null;
+
+      function initYearSlider({ container, years, initial, onChange }) {
+        container.innerHTML = `
+          <div class="alps-slider" aria-label="Year range">
+            <div class="alps-slider__track">
+              <div class="alps-slider__fill"></div>
+              <input id="year-range-min" class="alps-slider__input" type="range" />
+              <input id="year-range-max" class="alps-slider__input" type="range" />
+              <div class="alps-slider__thumb alps-slider__thumb--min" tabindex="0" role="slider" aria-label="Minimum year"></div>
+              <div class="alps-slider__thumb alps-slider__thumb--max" tabindex="0" role="slider" aria-label="Maximum year"></div>
+            </div>
+          </div>
+        `;
+        const track = container.querySelector('.alps-slider__track');
+        const fill = container.querySelector('.alps-slider__fill');
+        const inputMin = container.querySelector('#year-range-min');
+        const inputMax = container.querySelector('#year-range-max');
+        const thumbMin = container.querySelector('.alps-slider__thumb--min');
+        const thumbMax = container.querySelector('.alps-slider__thumb--max');
+        inputMin.min = 0; inputMin.max = years.length-1; inputMin.step = 1; inputMin.value = initial[0];
+        inputMax.min = 0; inputMax.max = years.length-1; inputMax.step = 1; inputMax.value = initial[1];
+        let minIdx = initial[0], maxIdx = initial[1];
+    // Remove duplicate/unused renderLabels in slider, use renderYearLabels only
+        function percent(idx) { return (idx/(years.length-1))*100; }
+        function updateUI() {
+          minIdx = Math.max(0, Math.min(minIdx, maxIdx));
+          maxIdx = Math.min(years.length-1, Math.max(maxIdx, minIdx));
+          thumbMin.style.left = `calc(${percent(minIdx)}% - 10px)`;
+          thumbMax.style.left = `calc(${percent(maxIdx)}% - 10px)`;
+          fill.style.left = percent(minIdx) + '%';
+          fill.style.width = (percent(maxIdx)-percent(minIdx)) + '%';
+          inputMin.value = minIdx;
+          inputMax.value = maxIdx;
+          thumbMin.setAttribute('aria-valuemin', 0);
+          thumbMin.setAttribute('aria-valuemax', years.length-1);
+          thumbMin.setAttribute('aria-valuenow', minIdx);
+          thumbMin.setAttribute('aria-valuetext', years[minIdx]);
+          thumbMax.setAttribute('aria-valuemin', 0);
+          thumbMax.setAttribute('aria-valuemax', years.length-1);
+          thumbMax.setAttribute('aria-valuenow', maxIdx);
+          thumbMax.setAttribute('aria-valuetext', years[maxIdx]);
+          // Call global renderYearLabels to update marks
+          if (typeof renderYearLabels === 'function') renderYearLabels();
+        }
+        function fireChange() {
+          if (typeof onChange === 'function') {
+            onChange({ minIndex: minIdx, maxIndex: maxIdx, minYear: years[minIdx], maxYear: years[maxIdx] });
+          }
+        }
+        let dragging = null;
+        function onPointerDown(e, which) {
+          dragging = which;
+          document.body.style.userSelect = 'none';
+          e.preventDefault();
+        }
+        function onPointerMove(e) {
+          if (!dragging) return;
+          let rect = track.getBoundingClientRect();
+          let x = (e.touches ? e.touches[0].clientX : e.clientX) - rect.left;
+          x = Math.max(0, Math.min(x, rect.width));
+          let idx = Math.round((x/rect.width)*(years.length-1));
+          if (dragging === 'min') minIdx = Math.min(idx, maxIdx);
+          else maxIdx = Math.max(idx, minIdx);
+          requestAnimationFrame(updateUI);
+          fireChange();
+        }
+        function onPointerUp() {
+          dragging = null;
+          document.body.style.userSelect = '';
+        }
+        thumbMin.addEventListener('mousedown', e => onPointerDown(e, 'min'));
+        thumbMax.addEventListener('mousedown', e => onPointerDown(e, 'max'));
+        thumbMin.addEventListener('touchstart', e => onPointerDown(e, 'min'), {passive:false});
+        thumbMax.addEventListener('touchstart', e => onPointerDown(e, 'max'), {passive:false});
+        window.addEventListener('mousemove', onPointerMove);
+        window.addEventListener('touchmove', onPointerMove, {passive:false});
+        window.addEventListener('mouseup', onPointerUp);
+        window.addEventListener('touchend', onPointerUp);
+        inputMin.addEventListener('input', e => { minIdx = Math.min(Number(inputMin.value), maxIdx); updateUI(); fireChange(); });
+        inputMax.addEventListener('input', e => { maxIdx = Math.max(Number(inputMax.value), minIdx); updateUI(); fireChange(); });
+        function handleKey(e, which) {
+          let idx = which === 'min' ? minIdx : maxIdx;
+          let min = 0, max = years.length-1;
+          switch (e.key) {
+            case 'ArrowLeft': idx = Math.max(min, idx-1); break;
+            case 'ArrowRight': idx = Math.min(max, idx+1); break;
+            case 'PageUp': idx = Math.min(max, idx+5); break;
+            case 'PageDown': idx = Math.max(min, idx-5); break;
+            case 'Home': idx = min; break;
+            case 'End': idx = max; break;
+            default: return;
+          }
+          if (which === 'min') minIdx = Math.min(idx, maxIdx);
+          else maxIdx = Math.max(idx, minIdx);
+          updateUI(); fireChange(); e.preventDefault();
+        }
+        thumbMin.addEventListener('keydown', e => handleKey(e, 'min'));
+        thumbMax.addEventListener('keydown', e => handleKey(e, 'max'));
+      window.addEventListener('resize', updateUI);
+  window.addEventListener('resize', renderYearLabels);
+      updateUI();
+  renderYearLabels();
+        return {
+          getIndices: () => [minIdx, maxIdx],
+          setIndices: ([a, b]) => { minIdx = Math.max(0, Math.min(a, b)); maxIdx = Math.min(years.length-1, Math.max(a, b)); updateUI(); fireChange(); }
+        };
+      }
+      function extractYears(paper) {
+        let ys = [];
+        if (Array.isArray(paper.publications)) ys.push(...paper.publications.map(pub => pub.year).filter(Boolean));
+        if (paper.year) ys.push(paper.year);
+        return ys;
+      }
+      function getPaperKey(p, order) {
+        const ys = extractYears(p);
+        return order === 'desc' ? Math.max(...ys, 0) : Math.min(...ys, 9999);
+      }
+      function renderPapers() {
+        // Use dropdowns for year range
+        const [yf, yt] = yearRange.length ? yearRange : [yearMin, yearMax];
+        let filtered = papers.filter(p => {
+          const paperYears = extractYears(p);
+          const inRange = paperYears.some(y => y >= yf && y <= yt);
+          if (!inRange) return false;
+          if (selectedLabels?.length) {
+            if (!Array.isArray(p.labels) || !selectedLabels.every(t => p.labels.includes(t))) return false;
+          }
+          return true;
+        });
+        filtered.sort((a,b) => getPaperKey(b, sortOrder) - getPaperKey(a, sortOrder));
+        if (sortOrder === 'asc') filtered.reverse();
+        document.getElementById('paper-count').textContent = `${filtered.length} papers`;
+        const container = document.getElementById('papers-list');
+        container.innerHTML = '';
+        filtered.forEach(paper => {
+          const div = document.createElement('div');
+          div.className = 'paperlist-item';
+          let pubChips = '';
+          if (Array.isArray(paper.publications)) {
+            pubChips = paper.publications.map(pub => {
+              let name = pub.displayName || pub.name || '';
+              let text = name + (pub.year ? ` '${String(pub.year).slice(-2)}` : '');
+              let variant = (name === 'arXiv') ? 'outlined' : 'filled';
+              return `<span class='chip pub' variant='${variant}' onclick='window.open("${pub.url||'#'}","_blank")'>${text}</span>`;
+            }).join(' ');
+          }
+          let labelChips = '';
+          if (Array.isArray(paper.labels)) {
+            labelChips = paper.labels.map(l => {
+              let cls = 'chip';
+              if (window.TYPE_LABELS && window.TYPE_LABELS.includes(l)) cls += ' type';
+              if (l === 'prior/related work') cls += ' prior';
+              return `<span class='${cls}'>${l}</span>`;
+            }).join(' ');
+          }
+          div.innerHTML = `
+            <div style="flex:1;min-width:0;">
+              <div class="paper-title">${paper.url ? `<a href='${paper.url}' target='_blank'>${paper.title}</a>` : paper.title}</div>
+              <div class="paper-authors">${paper.authors || ''}</div>
+              <div class="paper-chips">${pubChips} ${labelChips}</div>
+            </div>
+          `;
+          container.appendChild(div);
+        });
+        document.getElementById('reset-filters').style.display =
+          (selectedLabels.length || selectedYearRange[0] !== years[0] || selectedYearRange[1] !== years[years.length-1] || sortOrder !== 'desc')
+          ? '' : 'none';
+      }
+      // --- Label Filter Logic ---
+      const TYPE_LABELS = [
+        "dynamic / data structure",
+        "online",
+        "running time",
+        "approximation",
+        "streaming",
+        "game theory / mechanism design",
+        "differential privacy",
+        "survey"
+      ];
+      const PRIOR_LABEL = "prior/related work";
+      function renderFilters() {
+        let chipFilters = document.getElementById('chip-filters');
+        chipFilters.innerHTML = '';
+        // Show type labels first, then prior, then others
+        TYPE_LABELS.concat([PRIOR_LABEL]).forEach(label => { chipFilters.appendChild(labelChip(label)); });
+        // Find all unique labels in papers
+        let allLabels = Array.from(new Set(papers.flatMap(p => Array.isArray(p.labels) ? p.labels : [])));
+        allLabels.filter(l => !TYPE_LABELS.includes(l) && l !== PRIOR_LABEL).sort().forEach(label => { chipFilters.appendChild(labelChip(label)); });
+      }
+      function labelChip(label) {
+        const span = document.createElement('span');
+        span.className = 'chip';
+        if (TYPE_LABELS.includes(label)) span.classList.add('type');
+        if (label === PRIOR_LABEL) span.classList.add('prior');
+        if (selectedLabels.includes(label)) span.classList.add('selected');
+        span.textContent = label;
+        span.onclick = () => {
+          if (selectedLabels.includes(label)) {
+            selectedLabels = selectedLabels.filter(l => l !== label);
+          } else {
+            selectedLabels = [label, ...selectedLabels];
+          }
+          renderFilters();
+          renderPapers();
+        };
+        return span;
+      }
+      fetch('/_data/papers.json')
+        .then(r => r.json())
+        .then(data => {
+          papers = data.filter(p => typeof p === 'object' && p.title);
+          years = Array.from(new Set(
+            papers.flatMap(p => {
+              let ys = [];
+              if (Array.isArray(p.publications)) ys.push(...p.publications.map(pub => pub.year).filter(Boolean));
+              if (p.year) ys.push(p.year);
+              return ys;
+            })
+          )).sort((a,b)=>a-b);
+          selectedYearRange = [years[0], years[years.length-1]];
+          sliderApi = initYearSlider({
+            container: document.querySelector('.paperlist-slider'),
+            years,
+            initial: [0, years.length-1],
+            onChange: ({minYear, maxYear}) => {
+              selectedYearRange = [minYear, maxYear];
+              renderPapers();
+            }
+          });
+          document.getElementById('sort-filter').addEventListener('change', e => {
+            sortOrder = e.target.value;
+            renderPapers();
+          });
+          document.getElementById('reset-filters').addEventListener('click', () => {
+            selectedLabels = [];
+            sliderApi.setIndices([0, years.length-1]);
+            document.getElementById('sort-filter').value = 'desc';
+            sortOrder = 'desc';
+            renderFilters();
+            renderPapers();
+          });
+          renderFilters();
+          renderPapers();
+        });
+  // End of script
+      </script>
+</body>
+</html>

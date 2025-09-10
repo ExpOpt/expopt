@@ -1,0 +1,7 @@
+# papers/paper1.yaml
+title: "Explainable Optimization in Practice"
+authors: "Fatih Bildirici, Jane Doe"
+year: 2024
+journal: "Journal of XOpt"
+url: "https://doi.org/xxx"
+abstract: "This paper explores explainable optimization methods in real-world scenarios."

@@ -1,0 +1,18 @@
+[
+  {
+    "title": "OptiSuite",
+    "description": "A comprehensive toolkit for explainable optimization problems, supporting multiple solvers and visualization.",
+    "authors": "John Doe, Jane Doe",
+    "year": "2025",
+    "link": "https://github.com/example/optisuite",
+    "image": "/images/software-default.png"
+  },
+  {
+    "title": "XAI-Toolbox",
+    "description": "A Python library for interpretable AI models and optimization routines.",
+    "authors": "Alex Smith, Emily Brown",
+    "year": "2024",
+    "link": "https://github.com/example/xai-toolbox",
+    "image": "/images/software-default.png"
+  }
+]
