@@ -136,6 +136,86 @@
         "dblp_key": null,
         "bibtex": null}
 ]
+      },
+
+{
+    "title": "Towards Robust Interpretable Surrogates for Optimization.",
+    "authors": "Marc Goerigk, Michael Hartisch, and Sebastian Merten",
+    "labels": [
+      "interpretable",
+	"surrogate",
+	"robustness"
+    ],
+    "publications": [
+      {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2412.01264",
+        "year": 2024,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null}
+]
+      },
+
+{
+    "title": "Feature-based interpretable surrogates for optimization.",
+    "authors": "Marc Goerigk, Michael Hartisch, Sebastian Merten, and Kartikey Sharma",
+    "labels": [
+      "feature-based",
+	"surrogate",
+	"optimization"
+    ],
+    "publications": [
+      {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2409.01869",
+        "year": 2024,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null}
+]
+      },
+
+{
+    "title": "A framework for data-driven explainability in mathematical optimization.",
+    "authors": "Kevin-Martin Aigner, Marc Goerigk, Michael Hartisch, Frauke Liers, and Arthur Miehlich",
+    "labels": [
+      "explainability",
+	"data-driven",
+	"optimization"
+    ],
+    "publications": [
+      {
+        "name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "url": "https://doi.org/10.1609/aaai.v38i19.30081",
+        "year": 2024,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null}
+]
+      },
+
+{
+    "title": "A framework for inherently interpretable optimization models.",
+    "authors": "Marc Goerigk, and Michael Hartisch.",
+    "labels": [
+      "decision trees",
+	"interpretable",
+	"optimization"
+    ],
+    "publications": [
+      {
+        "name": "European Journal of Operational Research",
+        "url": "https://doi.org/10.1016/j.ejor.2023.04.013",
+        "year": 2023,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null}
+]
       }
 
 
