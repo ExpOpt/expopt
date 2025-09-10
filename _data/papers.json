@@ -200,7 +200,7 @@
 
 {
     "title": "A framework for inherently interpretable optimization models.",
-    "authors": "Marc Goerigk, and Michael Hartisch.",
+    "authors": "Marc Goerigk, and Michael Hartisch",
     "labels": [
       "decision trees",
 	"interpretable",
@@ -211,6 +211,26 @@
         "name": "European Journal of Operational Research",
         "url": "https://doi.org/10.1016/j.ejor.2023.04.013",
         "year": 2023,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null}
+]
+      },
+
+{
+    "title": "Counterfactual analysis and target setting in benchmarking.",
+    "authors": "Peter Bogetoft, Jasone Ramírez-Ayerbe, and Dolores Romero Morales",
+    "labels": [
+      "counterfactual explanations",
+	"Data Envelopment Analysis",
+	"bilevel optimization"
+    ],
+    "publications": [
+      {
+        "name": "European Journal of Operational Research",
+        "url": "https://doi.org/10.1016/j.ejor.2024.01.005",
+        "year": 2024,
         "month": null,
         "day": null,
         "dblp_key": null,
