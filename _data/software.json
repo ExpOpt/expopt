@@ -6,13 +6,5 @@
     "year": "2025",
     "link": "https://github.com/JannisKu/CE4LOPT",
     "image": "https://avatars.githubusercontent.com/u/82149698?s=48&v=4"
-  },
-{
-    "title": "CE4LOPT",
-    "description": "Solution methods for counterfactual explanations for linear optimization problems. The repository contains code for the solution methods presented in the following paper: Kurtz, J., Birbil, Ş. İ., & den Hertog, D. (2025). Counterfactual explanations for linear optimization. European Journal of Operational Research.",
-    "authors": "Jannis Kurtz",
-    "year": "2025",
-    "link": "https://github.com/JannisKu/CE4LOPT",
-    "image": "https://avatars.githubusercontent.com/u/82149698?s=48&v=4"
   }
 ]
