@@ -1,7 +1,7 @@
 [
 {
     "title": "Counterfactual explanations for linear optimization",
-    "authors": "Kurtz, Jannis, Ş. İlker Birbil, and Dick den Hertog",
+    "authors": "Jannis Kurtz, Ş. İlker Birbil, and Dick den Hertog",
     "labels": [
       "counterfactual explanations",
       "Linear optimization",
@@ -12,6 +12,25 @@
       {
         "name": "European Journal of Operational Research",
         "url": "https://doi.org/10.1016/j.ejor.2025.06.016",
+        "year": 2025,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null}
+]
+      },
+{
+    "title": "Explainable Decision Making: How to explain optimization models in Operations Research",
+    "authors": "Jannis Kurtz",
+    "labels": [
+      "counterfactual explanations",
+      "Operations Research",
+"Explainable Decision Making"
+    ],
+    "publications": [
+      {
+        "name": "STAtOR",
+        "url": "https://www.vvsor.nl/wp-content/uploads/2025/03/STAtOR_2025_1_web_wide_reduced.pdf",
         "year": 2025,
         "month": null,
         "day": null,
