@@ -3,14 +3,12 @@
     "title": "International Workshop on Explainability and Inter­pretability in Optimization",
     "date": "September 17–18, 2025",
     "location": "Energie Campus Nuremberg, Germany",
-    "description": "The workshop brings together international researchers and practitioners to discuss explainability and interpretability in mathematical optimization. While these concepts are gaining attention in areas like machine learning, they remain underexplored in optimization. The workshop aims to foster interdisciplinary dialogue, connect early-career and senior researchers, and bridge theory and practice.
-
-Key topics include:
-    Conceptual frameworks for interpretability and explainability
-    Transparency in decision-making and solution processes
-    Human-centered optimization and model understanding
-    Fairness, interactivity, and rule-based approaches
-    Practical relevance and application-level insights",
+    "description": "The workshop brings together international researchers and practitioners to discuss explainability and interpretability in mathematical optimization. While these concepts are gaining attention in areas like machine learning, they remain underexplored in optimization. The workshop aims to foster interdisciplinary dialogue, connect early-career and senior researchers, and bridge theory and practice. Key topics include:
+- Conceptual frameworks for interpretability and explainability
+- Transparency in decision-making and solution processes
+- Human-centered optimization and model understanding
+- Fairness, interactivity, and rule-based approaches
+- Practical relevance and application-level insights",
     "link": "https://www.wiwi.uni-passau.de/decisions/forschung/workshops"
   }
 ]
