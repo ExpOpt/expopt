@@ -7,7 +7,6 @@
     "link": "https://github.com/JannisKu/CE4LOPT",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png"
   },
-
   {
     "title": "CLEMO",
     "description": "Coherent Local Explanations for Mathematical Optimization. The repository contains code for the solution methods presented in the following paper: Otto, D., Kurtz, J. & Birbil, S.I.(2025). Coherent Local Explanations for Mathematical Optimization.",

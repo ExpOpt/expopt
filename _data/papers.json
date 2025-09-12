@@ -1,12 +1,12 @@
 [
-{
+  {
     "title": "Counterfactual explanations for linear optimization",
     "authors": "Jannis Kurtz, Ş. İlker Birbil, and Dick den Hertog",
     "labels": [
       "counterfactual explanations",
       "Linear optimization",
-"bilinear optimization",
-"inverse optimization"
+      "bilinear optimization",
+      "inverse optimization"
     ],
     "publications": [
       {
@@ -16,16 +16,17 @@
         "month": null,
         "day": null,
         "dblp_key": null,
-        "bibtex": null}
-]
-      },
-{
+        "bibtex": null
+      }
+    ]
+  },
+  {
     "title": "Explainable Decision Making: How to explain optimization models in Operations Research",
     "authors": "Jannis Kurtz",
     "labels": [
       "counterfactual explanations",
       "Operations Research",
-"Explainable Decision Making"
+      "Explainable Decision Making"
     ],
     "publications": [
       {
@@ -35,17 +36,17 @@
         "month": null,
         "day": null,
         "dblp_key": null,
-        "bibtex": null}
-]
-      },
-
-{
+        "bibtex": null
+      }
+    ]
+  },
+  {
     "title": "Coherent Local Explanations for Mathematical Optimization",
     "authors": "Daan Otto, Jannis Kurtz, and Ş. İlker Birbil",
     "labels": [
       "feature importance",
       "optimization",
-	"coherence"
+      "coherence"
     ],
     "publications": [
       {
@@ -55,17 +56,17 @@
         "month": null,
         "day": null,
         "dblp_key": null,
-        "bibtex": null}
-]
-      },
-
-{
+        "bibtex": null
+      }
+    ]
+  },
+  {
     "title": "Explainable data-driven optimization: from context to decision and back again.",
     "authors": "Alexandre Forel, Axel Parmentier, and Thibaut Vidal",
     "labels": [
       "counterfactual explanations",
       "context information",
-	"optimization"
+      "optimization"
     ],
     "publications": [
       {
@@ -75,16 +76,16 @@
         "month": null,
         "day": null,
         "dblp_key": null,
-        "bibtex": null}
-]
-      },
-
-{
+        "bibtex": null
+      }
+    ]
+  },
+  {
     "title": "Objective-based counterfactual explanations for linear discrete optimization.",
     "authors": "Anton Korikov, and J. Christopher Beck",
     "labels": [
       "counterfactual explanations",
-	"discrete optimization"
+      "discrete optimization"
     ],
     "publications": [
       {
@@ -94,16 +95,16 @@
         "month": null,
         "day": null,
         "dblp_key": null,
-        "bibtex": null}
-]
-      },
-
-{
+        "bibtex": null
+      }
+    ]
+  },
+  {
     "title": "Counterfactual explanations for optimization-based decisions in the context of the GDPR.",
     "authors": "Anton Korikov, Alexander Shleyfman, and J. Christopher Beck",
     "labels": [
       "counterfactual explanations",
-	"discrete optimization"
+      "discrete optimization"
     ],
     "publications": [
       {
@@ -113,18 +114,18 @@
         "month": null,
         "day": null,
         "dblp_key": null,
-        "bibtex": null}
-]
-      },
-
-{
+        "bibtex": null
+      }
+    ]
+  },
+  {
     "title": "Counterfactual explanations via inverse constraint programming.",
     "authors": "Anton Korikov, and J. Christopher Beck",
     "labels": [
       "counterfactual explanations",
-	"discrete optimization",
-	"constraint programming",
-	"inverse optimization"
+      "discrete optimization",
+      "constraint programming",
+      "inverse optimization"
     ],
     "publications": [
       {
@@ -134,16 +135,16 @@
         "month": null,
         "day": null,
         "dblp_key": null,
-        "bibtex": null}
-]
-      },
-
-{
+        "bibtex": null
+      }
+    ]
+  },
+  {
     "title": "Feature Selection for Data-Driven Explainable Optimization.",
     "authors": "Kevin-Martin Aigner, Marc Goerigk, Michael Hartisch, Frauke Liers, Arthur Miehlich, and Florian Rösel",
     "labels": [
       "feature selection",
-	"data-driven"
+      "data-driven"
     ],
     "publications": [
       {
@@ -153,17 +154,17 @@
         "month": null,
         "day": null,
         "dblp_key": null,
-        "bibtex": null}
-]
-      },
-
-{
+        "bibtex": null
+      }
+    ]
+  },
+  {
     "title": "Towards Robust Interpretable Surrogates for Optimization.",
     "authors": "Marc Goerigk, Michael Hartisch, and Sebastian Merten",
     "labels": [
       "interpretable",
-	"surrogate",
-	"robustness"
+      "surrogate",
+      "robustness"
     ],
     "publications": [
       {
@@ -173,17 +174,17 @@
         "month": null,
         "day": null,
         "dblp_key": null,
-        "bibtex": null}
-]
-      },
-
-{
+        "bibtex": null
+      }
+    ]
+  },
+  {
     "title": "Feature-based interpretable surrogates for optimization.",
     "authors": "Marc Goerigk, Michael Hartisch, Sebastian Merten, and Kartikey Sharma",
     "labels": [
       "feature-based",
-	"surrogate",
-	"optimization"
+      "surrogate",
+      "optimization"
     ],
     "publications": [
       {
@@ -193,17 +194,17 @@
         "month": null,
         "day": null,
         "dblp_key": null,
-        "bibtex": null}
-]
-      },
-
-{
+        "bibtex": null
+      }
+    ]
+  },
+  {
     "title": "A framework for data-driven explainability in mathematical optimization.",
     "authors": "Kevin-Martin Aigner, Marc Goerigk, Michael Hartisch, Frauke Liers, and Arthur Miehlich",
     "labels": [
       "explainability",
-	"data-driven",
-	"optimization"
+      "data-driven",
+      "optimization"
     ],
     "publications": [
       {
@@ -213,17 +214,17 @@
         "month": null,
         "day": null,
         "dblp_key": null,
-        "bibtex": null}
-]
-      },
-
-{
+        "bibtex": null
+      }
+    ]
+  },
+  {
     "title": "A framework for inherently interpretable optimization models.",
     "authors": "Marc Goerigk, and Michael Hartisch",
     "labels": [
       "decision trees",
-	"interpretable",
-	"optimization"
+      "interpretable",
+      "optimization"
     ],
     "publications": [
       {
@@ -233,17 +234,17 @@
         "month": null,
         "day": null,
         "dblp_key": null,
-        "bibtex": null}
-]
-      },
-
-{
+        "bibtex": null
+      }
+    ]
+  },
+  {
     "title": "Counterfactual analysis and target setting in benchmarking.",
     "authors": "Peter Bogetoft, Jasone Ramírez-Ayerbe, and Dolores Romero Morales",
     "labels": [
       "counterfactual explanations",
-	"Data Envelopment Analysis",
-	"bilevel optimization"
+      "Data Envelopment Analysis",
+      "bilevel optimization"
     ],
     "publications": [
       {
@@ -253,17 +254,17 @@
         "month": null,
         "day": null,
         "dblp_key": null,
-        "bibtex": null}
-]
-      },
-
-{
+        "bibtex": null
+      }
+    ]
+  },
+  {
     "title": "AI-assisted schedule explainer for nurse rostering.",
     "authors": "Kristijonas Cyras, Amin Karamlou, Myles Lee, Dimitrios Letsios, Ruth Misener, Francesca Toni",
     "labels": [
       "AI",
-	"explainer",
-	"nurse rostering"
+      "explainer",
+      "nurse rostering"
     ],
     "publications": [
       {
@@ -273,17 +274,17 @@
         "month": null,
         "day": null,
         "dblp_key": null,
-        "bibtex": null}
-]
-      },
-
-{
+        "bibtex": null
+      }
+    ]
+  },
+  {
     "title": "EXALT: EXplainable ALgorithmic Tools for Optimization Problems.",
     "authors": " Bączek, Zuzanna ; Bizoń, Michał ; Pawelec, Aneta ; Sankowski, Piotr",
     "labels": [
       "algorithms",
-	"explainability",
-"optimization"
+      "explainability",
+      "optimization"
     ],
     "publications": [
       {
@@ -293,16 +294,16 @@
         "month": null,
         "day": null,
         "dblp_key": null,
-        "bibtex": null}
-]
-      },
-
-{
+        "bibtex": null
+      }
+    ]
+  },
+  {
     "title": "Argumentation for explainable scheduling.",
     "authors": "Kristijonas Cyras, Dimitrios Letsios, Ruth Misener, Francesca Toni",
     "labels": [
       "explainability",
-	"scheduling"
+      "scheduling"
     ],
     "publications": [
       {
@@ -312,7 +313,8 @@
         "month": null,
         "day": null,
         "dblp_key": null,
-        "bibtex": null}
-]
+        "bibtex": null
       }
- ]
+    ]
+  }
+]
