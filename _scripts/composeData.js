@@ -9,5 +9,5 @@ const paper_objs = papers.map((paper) =>
   yaml.load(fs.readFileSync(paper_dir + "/" + paper, { encoding: "utf-8" }))
 );
 
-fs.mkdirSync("_data", { recursive: true }); // _data yoksa oluştur
+fs.mkdirSync("_data", { recursive: true }); // create _data directory if it doesn't exist
 fs.writeFileSync(outputJSON, JSON.stringify(paper_objs, null, 2));
