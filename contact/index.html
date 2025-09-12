@@ -1,38 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact</title>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <style>
-    html, body, * {
+    html,
+    body,
+    * {
       font-family: 'Barlow', 'Segoe UI', Arial, sans-serif !important;
     }
-    body { background: #f7f7f7; margin: 0; }
-    .alps-header { background: #111; color: #fff; margin: 0 0 24px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
-    .alps-header-bar { display: flex; align-items: center; padding: 0 24px; height: 64px; }
-    .alps-title { font-size: 2rem; font-weight: bold; margin-right: 32px; color: #fff; text-decoration: none; }
-    .alps-nav { display: flex; gap: 8px; }
-    .alps-nav a { color: #fff; text-decoration: none; font-weight: 500; padding: 8px 16px; border-radius: 4px; transition: background 0.2s; }
-    .alps-nav a:hover { background: #1976d2; }
-    .contact-md-container { max-width: 1200px; margin: 48px auto; background: #fff; border-radius: 14px; box-shadow: 0 4px 18px rgba(0,0,0,0.10); padding: 48px 36px; }
-    .contact-md-container h1, .contact-md-container h2, .contact-md-container h3 { color: #1976d2; }
-    .contact-md-container ul { margin-left: 1.2em; }
-    .contact-md-container li { margin-bottom: 8px; font-size: 1.08em; }
-    .contact-md-container b, .contact-md-container strong { color: #1976d2; }
-    .contact-md-container a { color: #1976d2; text-decoration: none; }
-    .contact-md-container a:hover { text-decoration: underline; }
-    .contact-md-container pre { background:#f3f7fa; border-radius:6px; padding:14px 12px; font-size:1em; color:#222; }
-    .contact-md-container hr { margin:24px 0; border:none; border-top:1.5px solid #e0e0e0; }
-    .contact-md-footer { text-align: center; color: #1976d2; font-weight: bold; margin-top: 32px; }
-    @media (max-width: 900px) { .contact-md-container { padding: 18px 4vw; } .alps-header-bar { flex-direction: column; height: auto; padding: 12px 4vw; } .alps-title { margin-bottom: 8px; } }
+
+    body {
+      background: #f7f7f7;
+      margin: 0;
+    }
+
+    .alps-header {
+      background: #111;
+      color: #fff;
+      margin: 0 0 24px 0;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    .alps-header-bar {
+      display: flex;
+      align-items: center;
+      padding: 0 24px;
+      height: 64px;
+    }
+
+    .alps-title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-right: 32px;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .alps-nav {
+      display: flex;
+      gap: 8px;
+    }
+
+    .alps-nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      padding: 8px 16px;
+      border-radius: 4px;
+      transition: background 0.2s;
+    }
+
+    .alps-nav a:hover {
+      background: #1976d2;
+    }
+
+    .contact-md-container {
+      max-width: 1200px;
+      margin: 48px auto;
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.10);
+      padding: 48px 36px;
+    }
+
+    .contact-md-container h1,
+    .contact-md-container h2,
+    .contact-md-container h3 {
+      color: #1976d2;
+    }
+
+    .contact-md-container ul {
+      margin-left: 1.2em;
+    }
+
+    .contact-md-container li {
+      margin-bottom: 8px;
+      font-size: 1.08em;
+    }
+
+    .contact-md-container b,
+    .contact-md-container strong {
+      color: #1976d2;
+    }
+
+    .contact-md-container a {
+      color: #1976d2;
+      text-decoration: none;
+    }
+
+    .contact-md-container a:hover {
+      text-decoration: underline;
+    }
+
+    .contact-md-container pre {
+      background: #f3f7fa;
+      border-radius: 6px;
+      padding: 14px 12px;
+      font-size: 1em;
+      color: #222;
+    }
+
+    .contact-md-container hr {
+      margin: 24px 0;
+      border: none;
+      border-top: 1.5px solid #e0e0e0;
+    }
+
+    .contact-md-footer {
+      text-align: center;
+      color: #1976d2;
+      font-weight: bold;
+      margin-top: 32px;
+    }
+
+    @media (max-width: 900px) {
+      .contact-md-container {
+        padding: 18px 4vw;
+      }
+
+      .alps-header-bar {
+        flex-direction: column;
+        height: auto;
+        padding: 12px 4vw;
+      }
+
+      .alps-title {
+        margin-bottom: 8px;
+      }
+    }
   </style>
 </head>
+
 <body>
   <div class="alps-header">
     <div class="alps-header-bar">
-  <a class="alps-title" href="/" style="display:flex;align-items:center;"><img src="/images/logo.png" alt="ExpOpt Logo" style="height:40px;width:auto;display:block;"></a>
+      <a class="alps-title" href="/" style="display:flex;align-items:center;"><img src="/images/logo.png"
+          alt="ExpOpt Logo" style="height:40px;width:auto;display:block;"></a>
       <nav class="alps-nav">
         <a href="/">Home</a>
         <a href="/events/">Events</a>
@@ -46,25 +153,10 @@
   <div class="contact-md-container" id="contact-md"></div>
   <script type="text/markdown" id="contact-md-src">
 # Contact
-
 If you want your work or event to be listed on our webpage or for any other inquiries, please contact our group:
-
 - **Email:** expopt.uva@gmail.com
 - **Our group at UvA:** [Link](https://abs.uva.nl/content/sections/business-analytics/business-analytics.html)
-
 ---
-
-Or send an email using the following template:
-
-```
-Name: 
-Email: 
-Subject: 
-Message:
-```
-
----
-
 **We look forward to hearing from you!**
   </script>
   <script>
@@ -73,4 +165,5 @@ Message:
     document.getElementById('contact-md').innerHTML = marked.parse(md);
   </script>
 </body>
+
 </html>

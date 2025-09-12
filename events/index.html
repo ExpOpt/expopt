@@ -1,42 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Events</title>
   <style>
-    html, body, * {
+    html,
+    body,
+    * {
       font-family: 'Barlow', 'Segoe UI', Arial, sans-serif !important;
     }
-    body { background: #f7f7f7; margin: 0; }
-    .alps-header { background: #111; color: #fff; margin: 0 0 24px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
-    .alps-header-bar { display: flex; align-items: center; padding: 0 24px; height: 64px; }
-    .alps-title { font-size: 2rem; font-weight: bold; margin-right: 32px; color: #fff; text-decoration: none; }
-    .alps-nav { display: flex; gap: 8px; }
-    .alps-nav a { color: #fff; text-decoration: none; font-weight: 500; padding: 8px 16px; border-radius: 4px; transition: background 0.2s; }
-    .alps-nav a:hover { background: #1976d2; }
-  .events-container { max-width: 1200px; margin: 48px auto; background: #fff; border-radius: 14px; box-shadow: 0 4px 18px rgba(0,0,0,0.10); padding: 48px 36px; }
-    .events-container h1 { color: #1976d2; }
-  .event-list { margin: 48px 0 0 0; display: flex; flex-direction: column; gap: 48px; }
-  .event-card { background: #f7f7f7; border-radius: 22px; box-shadow: 0 2px 16px rgba(0,0,0,0.10); padding: 0; width: 100%; min-height: 220px; display: flex; flex-direction: row; align-items: stretch; overflow: hidden; }
-  .event-image { flex: 0 0 220px; background: #e0e0e0; display: flex; align-items: center; justify-content: center; }
-  .event-image img { width: 180px; height: 180px; object-fit: cover; border-radius: 16px; margin: 18px; background: #fff; }
-  .event-details { flex: 1 1 0; padding: 44px 48px; display: flex; flex-direction: column; justify-content: center; }
-  .event-title { font-size: 1.45em; font-weight: bold; color: #1976d2; margin-bottom: 10px; }
-  .event-date { color: #555; font-size: 1em; margin-bottom: 4px; }
-  .event-location { color: #888; font-size: 1em; margin-bottom: 10px; }
-  .event-description { color: #222; font-size: 1.05em; margin-bottom: 12px; }
-  .event-extra { color: #1976d2; font-size: 0.98em; margin-bottom: 8px; }
-  .event-link { color: #1976d2; text-decoration: none; font-weight: 600; margin-top: 10px; font-size: 1em; display: inline-block; padding: 8px 18px; border-radius: 8px; background: #e3eafc; transition: background 0.2s; }
-  .event-link:hover { background: #1976d2; color: #fff; text-decoration: none; }
-    @media (max-width: 900px) { .events-container { padding: 18px 4vw; } .alps-header-bar { flex-direction: column; height: auto; padding: 12px 4vw; } .alps-title { margin-bottom: 8px; } .event-list { gap: 18px; } .event-card { flex-direction: column; min-height: unset; } .event-image { flex-basis: 120px; } .event-image img { width: 100px; height: 100px; } .event-details { padding: 18px 12px; } }
-    @media (max-width: 900px) { .events-container { padding: 18px 4vw; } .alps-header-bar { flex-direction: column; height: auto; padding: 12px 4vw; } .alps-title { margin-bottom: 8px; } .event-list { flex-direction: column; gap: 18px; } .event-card { max-width: 100%; } }
+
+    body {
+      background: #f7f7f7;
+      margin: 0;
+    }
+
+    .alps-header {
+      background: #111;
+      color: #fff;
+      margin: 0 0 24px 0;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    .alps-header-bar {
+      display: flex;
+      align-items: center;
+      padding: 0 24px;
+      height: 64px;
+    }
+
+    .alps-title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-right: 32px;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .alps-nav {
+      display: flex;
+      gap: 8px;
+    }
+
+    .alps-nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      padding: 8px 16px;
+      border-radius: 4px;
+      transition: background 0.2s;
+    }
+
+    .alps-nav a:hover {
+      background: #1976d2;
+    }
+
+    .events-container {
+      max-width: 1200px;
+      margin: 48px auto;
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.10);
+      padding: 48px 36px;
+    }
+
+    .events-container h1 {
+      color: #1976d2;
+    }
+
+    .event-list {
+      margin: 48px 0 0 0;
+      display: flex;
+      flex-direction: column;
+      gap: 48px;
+    }
+
+    .event-card {
+      background: #f7f7f7;
+      border-radius: 22px;
+      box-shadow: 0 2px 16px rgba(0, 0, 0, 0.10);
+      padding: 0;
+      width: 100%;
+      min-height: 220px;
+      display: flex;
+      flex-direction: row;
+      align-items: stretch;
+      overflow: hidden;
+    }
+
+    .event-image {
+      flex: 0 0 220px;
+      background: #e0e0e0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .event-image img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 16px;
+      margin: 18px;
+      background: #fff;
+    }
+
+    .event-details {
+      flex: 1 1 0;
+      padding: 44px 48px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .event-title {
+      font-size: 1.45em;
+      font-weight: bold;
+      color: #1976d2;
+      margin-bottom: 10px;
+    }
+
+    .event-date {
+      color: #555;
+      font-size: 1em;
+      margin-bottom: 4px;
+    }
+
+    .event-location {
+      color: #888;
+      font-size: 1em;
+      margin-bottom: 10px;
+    }
+
+    .event-description {
+      color: #222;
+      font-size: 1.05em;
+      margin-bottom: 12px;
+    }
+
+    .event-extra {
+      color: #1976d2;
+      font-size: 0.98em;
+      margin-bottom: 8px;
+    }
+
+    .event-link {
+      color: #1976d2;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 10px;
+      font-size: 1em;
+      display: inline-block;
+      padding: 8px 18px;
+      border-radius: 8px;
+      background: #e3eafc;
+      transition: background 0.2s;
+    }
+
+    .event-link:hover {
+      background: #1976d2;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    @media (max-width: 900px) {
+      .events-container {
+        padding: 18px 4vw;
+      }
+
+      .alps-header-bar {
+        flex-direction: column;
+        height: auto;
+        padding: 12px 4vw;
+      }
+
+      .alps-title {
+        margin-bottom: 8px;
+      }
+
+      .event-list {
+        gap: 18px;
+      }
+
+      .event-card {
+        flex-direction: column;
+        min-height: unset;
+      }
+
+      .event-image {
+        flex-basis: 120px;
+      }
+
+      .event-image img {
+        width: 100px;
+        height: 100px;
+      }
+
+      .event-details {
+        padding: 18px 12px;
+      }
+    }
+
+    @media (max-width: 900px) {
+      .events-container {
+        padding: 18px 4vw;
+      }
+
+      .alps-header-bar {
+        flex-direction: column;
+        height: auto;
+        padding: 12px 4vw;
+      }
+
+      .alps-title {
+        margin-bottom: 8px;
+      }
+
+      .event-list {
+        flex-direction: column;
+        gap: 18px;
+      }
+
+      .event-card {
+        max-width: 100%;
+      }
+    }
   </style>
 </head>
+
 <body>
   <div class="alps-header">
     <div class="alps-header-bar">
-  <a class="alps-title" href="/" style="display:flex;align-items:center;"><img src="/images/logo.png" alt="ExpOpt Logo" style="height:40px;width:auto;display:block;"></a>
+      <a class="alps-title" href="/" style="display:flex;align-items:center;"><img src="/images/logo.png"
+          alt="ExpOpt Logo" style="height:40px;width:auto;display:block;"></a>
       <nav class="alps-nav">
         <a href="/">Home</a>
         <a href="/events/">Events</a>
@@ -49,7 +247,8 @@
   </div>
   <div class="events-container">
     <h1>Events</h1>
-    <div style="margin-bottom:24px;color:#444;font-size:1.13em;">Upcoming and past events related to explainable optimization:</div>
+    <div style="margin-bottom:24px;color:#444;font-size:1.13em;">Upcoming and past events related to explainable
+      optimization:</div>
     <div class="event-list" id="event-list"></div>
   </div>
   <script>
@@ -90,4 +289,5 @@
       });
   </script>
 </body>
+
 </html>
