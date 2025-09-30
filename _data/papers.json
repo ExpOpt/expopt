@@ -316,5 +316,25 @@
         "bibtex": null
       }
     ]
+  },
+  {
+    "title": ""It Was a Magical Box": Understanding Practitioner Workflows and Needs in Optimization",
+    "authors": "Connor Lawless, Jakob Schoeffer, Madeleine Udell",
+    "labels": [
+      "explainability",
+      "optimization",
+      "practice"
+    ],
+    "publications": [
+      {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2509.16402",
+        "year": 2025,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null
+      }
+    ]
   }
 ]
