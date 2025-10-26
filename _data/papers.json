@@ -1,7 +1,7 @@
 [
   {
     "title": "Counterfactual explanations for linear optimization",
-    "authors": "Jannis Kurtz, Ş. İlker Birbil, and Dick den Hertog",
+    "authors": "Jannis Kurtz, Ş. İlker Birbil, Dick den Hertog",
     "labels": [
       "counterfactual explanations",
       "Linear optimization",
@@ -21,7 +21,7 @@
     ]
   },
   {
-    "title": "Explainable Decision Making: How to explain optimization models in Operations Research",
+    "title": "Explainable decision making: How to explain optimization models in operations research",
     "authors": "Jannis Kurtz",
     "labels": [
       "counterfactual explanations",
@@ -41,8 +41,8 @@
     ]
   },
   {
-    "title": "Coherent Local Explanations for Mathematical Optimization",
-    "authors": "Daan Otto, Jannis Kurtz, and Ş. İlker Birbil",
+    "title": "Coherent local explanations for mathematical optimization",
+    "authors": "Daan Otto, Jannis Kurtz, Ş. İlker Birbil",
     "labels": [
       "feature importance",
       "optimization",
@@ -61,8 +61,8 @@
     ]
   },
   {
-    "title": "Explainable data-driven optimization: from context to decision and back again.",
-    "authors": "Alexandre Forel, Axel Parmentier, and Thibaut Vidal",
+    "title": "Explainable data-driven optimization: from context to decision and back again",
+    "authors": "Alexandre Forel, Axel Parmentier, Thibaut Vidal",
     "labels": [
       "counterfactual explanations",
       "context information",
@@ -81,7 +81,7 @@
     ]
   },
   {
-    "title": "Objective-based counterfactual explanations for linear discrete optimization.",
+    "title": "Objective-based counterfactual explanations for linear discrete optimization",
     "authors": "Anton Korikov, and J. Christopher Beck",
     "labels": [
       "counterfactual explanations",
@@ -100,8 +100,8 @@
     ]
   },
   {
-    "title": "Counterfactual explanations for optimization-based decisions in the context of the GDPR.",
-    "authors": "Anton Korikov, Alexander Shleyfman, and J. Christopher Beck",
+    "title": "Counterfactual explanations for optimization-based decisions in the context of the GDPR",
+    "authors": "Anton Korikov, Alexander Shleyfman, J. Christopher Beck",
     "labels": [
       "counterfactual explanations",
       "discrete optimization"
@@ -119,8 +119,8 @@
     ]
   },
   {
-    "title": "Counterfactual explanations via inverse constraint programming.",
-    "authors": "Anton Korikov, and J. Christopher Beck",
+    "title": "Counterfactual explanations via inverse constraint programming",
+    "authors": "Anton Korikov, J. Christopher Beck",
     "labels": [
       "counterfactual explanations",
       "discrete optimization",
@@ -140,8 +140,8 @@
     ]
   },
   {
-    "title": "Feature Selection for Data-Driven Explainable Optimization.",
-    "authors": "Kevin-Martin Aigner, Marc Goerigk, Michael Hartisch, Frauke Liers, Arthur Miehlich, and Florian Rösel",
+    "title": "Feature selection for data-driven explainable optimization",
+    "authors": "Kevin-Martin Aigner, Marc Goerigk, Michael Hartisch, Frauke Liers, Arthur Miehlich, Florian Rösel",
     "labels": [
       "feature selection",
       "data-driven"
@@ -159,8 +159,8 @@
     ]
   },
   {
-    "title": "Towards Robust Interpretable Surrogates for Optimization.",
-    "authors": "Marc Goerigk, Michael Hartisch, and Sebastian Merten",
+    "title": "Towards robust interpretable surrogates for optimization",
+    "authors": "Marc Goerigk, Michael Hartisch, Sebastian Merten",
     "labels": [
       "interpretable",
       "surrogate",
@@ -179,8 +179,8 @@
     ]
   },
   {
-    "title": "Feature-based interpretable surrogates for optimization.",
-    "authors": "Marc Goerigk, Michael Hartisch, Sebastian Merten, and Kartikey Sharma",
+    "title": "Feature-based interpretable surrogates for optimization",
+    "authors": "Marc Goerigk, Michael Hartisch, Sebastian Merten, Kartikey Sharma",
     "labels": [
       "feature-based",
       "surrogate",
@@ -199,8 +199,8 @@
     ]
   },
   {
-    "title": "A framework for data-driven explainability in mathematical optimization.",
-    "authors": "Kevin-Martin Aigner, Marc Goerigk, Michael Hartisch, Frauke Liers, and Arthur Miehlich",
+    "title": "A framework for data-driven explainability in mathematical optimization",
+    "authors": "Kevin-Martin Aigner, Marc Goerigk, Michael Hartisch, Frauke Liers, Arthur Miehlich",
     "labels": [
       "explainability",
       "data-driven",
@@ -219,8 +219,8 @@
     ]
   },
   {
-    "title": "A framework for inherently interpretable optimization models.",
-    "authors": "Marc Goerigk, and Michael Hartisch",
+    "title": "A framework for inherently interpretable optimization models",
+    "authors": "Marc Goerigk, Michael Hartisch",
     "labels": [
       "decision trees",
       "interpretable",
@@ -239,8 +239,8 @@
     ]
   },
   {
-    "title": "Counterfactual analysis and target setting in benchmarking.",
-    "authors": "Peter Bogetoft, Jasone Ramírez-Ayerbe, and Dolores Romero Morales",
+    "title": "Counterfactual analysis and target setting in benchmarking",
+    "authors": "Peter Bogetoft, Jasone Ramírez-Ayerbe, Dolores Romero Morales",
     "labels": [
       "counterfactual explanations",
       "Data Envelopment Analysis",
@@ -259,7 +259,7 @@
     ]
   },
   {
-    "title": "AI-assisted schedule explainer for nurse rostering.",
+    "title": "AI-assisted schedule explainer for nurse rostering",
     "authors": "Kristijonas Cyras, Amin Karamlou, Myles Lee, Dimitrios Letsios, Ruth Misener, Francesca Toni",
     "labels": [
       "AI",
@@ -279,8 +279,8 @@
     ]
   },
   {
-    "title": "EXALT: EXplainable ALgorithmic Tools for Optimization Problems.",
-    "authors": " Bączek, Zuzanna ; Bizoń, Michał ; Pawelec, Aneta ; Sankowski, Piotr",
+    "title": "EXALT: EXplainable ALgorithmic Tools for optimization problems",
+    "authors": "Zuzanna Bączek, Michał Bizoń, Aneta Pawelec, Piotr Sankowski",
     "labels": [
       "algorithms",
       "explainability",
@@ -299,7 +299,7 @@
     ]
   },
   {
-    "title": "Argumentation for explainable scheduling.",
+    "title": "Argumentation for explainable scheduling",
     "authors": "Kristijonas Cyras, Dimitrios Letsios, Ruth Misener, Francesca Toni",
     "labels": [
       "explainability",
@@ -318,7 +318,7 @@
     ]
   },
   {
-    "title": "It Was a Magical Box: Understanding Practitioner Workflows and Needs in Optimization",
+    "title": "It was a magical box: Understanding practitioner workflows and needs in optimization",
     "authors": "Connor Lawless, Jakob Schoeffer, Madeleine Udell",
     "labels": [
       "explainability",
@@ -330,6 +330,89 @@
         "name": "arXiv",
         "url": "https://arxiv.org/abs/2509.16402",
         "year": 2025,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null
+      }
+    ]
+  },
+  {
+    "title": "Explainable optimisation through online and offline hyper-heuristics",
+    "authors": "William B. Yates, Edward C. Keedwell, Ahmad Kheiri",
+    "labels": [
+      "explainability",
+      "optimization",
+      "heuristics"
+    ],
+    "publications": [
+      {
+        "name": "ACM Transactions on Evolutionary Learning and Optimization",
+        "url": "https://dl.acm.org/doi/10.1145/3701236",
+        "year": 2025,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null
+      }
+    ]
+  },
+  {
+    "title": "Towards explainable metaheuristics: Feature mining of search trajectories through principal component projection",
+    "authors": "Martin Fyvie, John A. W. McCall, Lee A. Christie",
+    "labels": [
+      "explainability",
+      "optimization",
+      "heuristics",
+      "feature importance"
+    ],
+    "publications": [
+      {
+        "name": "ACM Transactions on Evolutionary Learning and Optimization",
+        "url": "https://dl.acm.org/doi/10.1145/3731456",
+        "year": 2025,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null
+      }
+    ]
+  },
+  {
+    "title": "Explainable benchmarking for iterative optimization heuristics",
+    "authors": "Niki van Stein, Diederick Vermetten, Anna V. Kononova, Thomas Bäck",
+    "labels": [
+      "explainability",
+      "optimization",
+      "heuristics",
+      "benchmarking"
+    ],
+    "publications": [
+      {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2401.17842",
+        "year": 2024,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null
+      }
+    ]
+  },
+  {
+    "title": "Exploring the explainable aspects and performance of a learnable evolutionary multiobjective optimization method",
+    "authors": "Giovanni Misitano",
+    "labels": [
+      "explainability",
+      "multiobjective optimization",
+      "heuristics",
+      "learning"
+    ],
+    "publications": [
+      {
+        "name": "ACM Transactions on Evolutionary Learning and Optimization",
+        "url": "https://dl.acm.org/doi/10.1145/3626104",
+        "year": 2024,
         "month": null,
         "day": null,
         "dblp_key": null,
