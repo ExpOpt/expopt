@@ -4,7 +4,7 @@
     "authors": "Jannis Kurtz, Ş. İlker Birbil, Dick den Hertog",
     "labels": [
       "counterfactual explanations",
-      "Linear optimization",
+      "linear optimization",
       "bilinear optimization",
       "inverse optimization"
     ],
@@ -25,8 +25,8 @@
     "authors": "Jannis Kurtz",
     "labels": [
       "counterfactual explanations",
-      "Operations Research",
-      "Explainable Decision Making"
+      "operations research",
+      "explainable decision making"
     ],
     "publications": [
       {
@@ -243,7 +243,7 @@
     "authors": "Peter Bogetoft, Jasone Ramírez-Ayerbe, Dolores Romero Morales",
     "labels": [
       "counterfactual explanations",
-      "Data Envelopment Analysis",
+      "data envelopment analysis",
       "bilevel optimization"
     ],
     "publications": [
@@ -262,9 +262,10 @@
     "title": "AI-assisted schedule explainer for nurse rostering",
     "authors": "Kristijonas Cyras, Amin Karamlou, Myles Lee, Dimitrios Letsios, Ruth Misener, Francesca Toni",
     "labels": [
-      "AI",
+      "artificial intelligence",
       "explainer",
-      "nurse rostering"
+      "nurse rostering",
+      "applciation"
     ],
     "publications": [
       {
@@ -413,6 +414,26 @@
         "name": "ACM Transactions on Evolutionary Learning and Optimization",
         "url": "https://dl.acm.org/doi/10.1145/3626104",
         "year": 2024,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null
+      }
+    ]
+  },
+  {
+    "title": "Counterfactual explanations for integer optimization problems",
+    "authors": "Felix Engelhardt, Jannis Kurtz, Ş. İlker Birbil, Ted Ralphs",
+    "labels": [
+      "counterfactual explanations",
+      "integer optimization",
+      "bilinear optimization"
+    ],
+    "publications": [
+      {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2510.17624",
+        "year": 2025,
         "month": null,
         "day": null,
         "dblp_key": null,
