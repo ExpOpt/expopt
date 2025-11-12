@@ -476,5 +476,41 @@
         "bibtex": null
       }
     ]
+  },
+ {
+    "title": "Enhancing the decision-support capabilities of interactive multiobjective optimization with explainability",
+    "authors": "Giovanni Misitano",
+    "labels": [
+      "thesis", "multiobjective optimization", "explainable decision making", "heuristics"
+    ],
+    "publications": [
+      {
+        "name": "JYU Dissertations (University of Jyväskylä, PhD thesis)",
+        "url": "https://urn.fi/URN:ISBN:978-952-86-0183-8",
+        "year": 2024,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null
+      }
+    ]
+  },
+{
+    "title": "The Emerging Role of Explainability in Interactive Multiobjective Optimization: An Exploration of Current Approaches",
+    "authors": "Giovanni Misitano, Kaisa Miettinen",
+    "labels": [
+      "multiobjective optimization", "explainable decision making", "survey", "artificial intelligence"
+    ],
+    "publications": [
+      {
+        "name": "Explainable AI for Evolutionary Computation (book chapter)",
+        "url": "https://doi.org/10.1007/978-981-96-2540-6_7",
+        "year": 2025,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null
+      }
+    ]
   }
 ]
