@@ -427,7 +427,7 @@
     "labels": [
       "counterfactual explanations",
       "integer optimization",
-      "bilinear optimization"
+      "bilevel optimization"
     ],
     "publications": [
       {
