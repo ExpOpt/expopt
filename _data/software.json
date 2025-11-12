@@ -17,7 +17,7 @@
   },
   {
     "title": "DESDEO",
-    "description": "test",
+    "description": "DESDEO is an open-source software framework for interactive multiobjective optimization (including aspects of explainability). Interactive methods are tools to support decision-making in problems with multiple conflicting objective functions, or in other words, multiobjective optimization problems. These problems have multiple optimal solutions, known as Pareto optimal solutions, which are represented by numerical vectors, and are therefore incomparable on a mathematical basis alone. To find the best solution among the Pareto optimal ones, preferences from a decision maker can be utilized. The goal of interactive multiobjective optimization methods is to aid a decision maker in finding their most preferred solution among the Pareto optimal ones by leveraging the preferences expressed by the decision maker.",
     "authors": "The Multiobjective Optimization Group",
     "year": "2025",
     "link": "https://github.com/industrial-optimization-group/DESDEO",
