@@ -440,5 +440,41 @@
         "bibtex": null
       }
     ]
+  },
+ {
+    "title": "Interactively learning the preferences of a decision maker in multi-objective optimization utilizing belief-rules",
+    "authors": "Giovanni Misitano",
+    "labels": [
+      "multiobjective optimization", "explainable decision making", "interpretable", "rule based"
+    ],
+    "publications": [
+      {
+        "name": "2020 IEEE symposium series on computational intelligence (SSCI)",
+        "url": "https://doi.org/10.1109/SSCI47803.2020.9308316",
+        "year": 2020,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null
+      }
+    ]
+  },
+ {
+    "title": "Towards explainable interactive multiobjective optimization: R-XIMO",
+    "authors": "Giovanni Misitano, Bekir Afsar, Giomara Lárraga, Kaisa Miettinen",
+    "labels": [
+      "multiobjective optimization", "explainable decision making", "algorithms", "feature-based"
+    ],
+    "publications": [
+      {
+        "name": "Autonomous Agents and Multi-Agent Systems",
+        "url": "https://doi.org/10.1007/s10458-022-09577-3",
+        "year": 2022,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null
+      }
+    ]
   }
 ]
