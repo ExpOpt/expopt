@@ -510,22 +510,6 @@
         "day": null,
         "dblp_key": null,
         "bibtex": null
-      },
-{
-    "title": "Can LIME Make Interactive Multiobjective Optimization Methods Explainable",
-    "authors": "Afsar Bekir, Giomara Larraga, Kaisa Miettinen",
-    "labels": [
-      "multiobjective optimization", "explainable decision making", "interactive methods"
-    ],
-    "publications": [
-      {
-        "name": "IEEE Symposium on Trustworthy, Explainable and Responsible Computational Intelligence (CITREx)",
-        "url": "https://ieeexplore.ieee.org/document/10974943",
-        "year": 2025,
-        "month": null,
-        "day": null,
-        "dblp_key": null,
-        "bibtex": null
       }
     ]
   }
