@@ -441,11 +441,14 @@
       }
     ]
   },
- {
+  {
     "title": "Interactively learning the preferences of a decision maker in multi-objective optimization utilizing belief-rules",
     "authors": "Giovanni Misitano",
     "labels": [
-      "multiobjective optimization", "explainable decision making", "interpretable", "rule based"
+      "multiobjective optimization",
+      "explainable decision making",
+      "interpretable",
+      "rule based"
     ],
     "publications": [
       {
@@ -459,11 +462,14 @@
       }
     ]
   },
- {
+  {
     "title": "Towards explainable interactive multiobjective optimization: R-XIMO",
     "authors": "Giovanni Misitano, Bekir Afsar, Giomara Lárraga, Kaisa Miettinen",
     "labels": [
-      "multiobjective optimization", "explainable decision making", "algorithms", "feature-based"
+      "multiobjective optimization",
+      "explainable decision making",
+      "algorithms",
+      "feature-based"
     ],
     "publications": [
       {
@@ -477,11 +483,14 @@
       }
     ]
   },
- {
+  {
     "title": "Enhancing the decision-support capabilities of interactive multiobjective optimization with explainability",
     "authors": "Giovanni Misitano",
     "labels": [
-      "thesis", "multiobjective optimization", "explainable decision making", "heuristics"
+      "thesis",
+      "multiobjective optimization",
+      "explainable decision making",
+      "heuristics"
     ],
     "publications": [
       {
@@ -495,11 +504,14 @@
       }
     ]
   },
-{
+  {
     "title": "The Emerging Role of Explainability in Interactive Multiobjective Optimization: An Exploration of Current Approaches",
     "authors": "Giovanni Misitano, Kaisa Miettinen",
     "labels": [
-      "multiobjective optimization", "explainable decision making", "survey", "artificial intelligence"
+      "multiobjective optimization",
+      "explainable decision making",
+      "survey",
+      "artificial intelligence"
     ],
     "publications": [
       {
@@ -513,16 +525,38 @@
       }
     ]
   },
-{
+  {
     "title": "Can LIME Make Interactive Multiobjective Optimization Methods Explainable?",
     "authors": "Afsar Bekir, Giomara Lárraga, Kaisa Miettinen",
     "labels": [
-      "multiobjective optimization", "explainable decision making", "interactive methods"
+      "multiobjective optimization",
+      "explainable decision making",
+      "interactive methods"
     ],
     "publications": [
       {
         "name": "2025 IEEE Symposium on Trustworthy, Explainable and Responsible Computational Intelligence (CITREx)",
         "url": "https://ieeexplore.ieee.org/document/10974943",
+        "year": 2025,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null
+      }
+    ]
+  },
+  {
+    "title": "Counterfactual Explanations for Power System Optimisation",
+    "authors": "Benjamin Fritz, Waqquas Bukhsh",
+    "labels": [
+      "bilevel optimization",
+      "counterfactual explanations",
+      "power system optimisation"
+    ],
+    "publications": [
+      {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2512.04833",
         "year": 2025,
         "month": null,
         "day": null,
