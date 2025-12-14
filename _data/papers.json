@@ -505,7 +505,7 @@
     ]
   },
   {
-    "title": "The Emerging Role of Explainability in Interactive Multiobjective Optimization: An Exploration of Current Approaches",
+    "title": "The emerging role of explainability in interactive multiobjective optimization: An exploration of current approaches",
     "authors": "Giovanni Misitano, Kaisa Miettinen",
     "labels": [
       "multiobjective optimization",
@@ -515,7 +515,7 @@
     ],
     "publications": [
       {
-        "name": "Explainable AI for Evolutionary Computation (book chapter)",
+        "name": "Explainable AI for evolutionary computation (book chapter)",
         "url": "https://doi.org/10.1007/978-981-96-2540-6_7",
         "year": 2025,
         "month": null,
@@ -526,7 +526,7 @@
     ]
   },
   {
-    "title": "Can LIME Make Interactive Multiobjective Optimization Methods Explainable?",
+    "title": "Can LIME make interactive multiobjective optimization methods explainable?",
     "authors": "Afsar Bekir, Giomara Lárraga, Kaisa Miettinen",
     "labels": [
       "multiobjective optimization",
@@ -546,7 +546,7 @@
     ]
   },
   {
-    "title": "Counterfactual Explanations for Power System Optimisation",
+    "title": "Counterfactual explanations for power system optimisation",
     "authors": "Benjamin Fritz, Waqquas Bukhsh",
     "labels": [
       "bilevel optimization",
