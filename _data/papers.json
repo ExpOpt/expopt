@@ -606,5 +606,26 @@
         "bibtex": null
       }
     ]
+  },
+  {
+    "title": "Computing Weak Counterfactual Explanations for Linear Optimization: A New Class of Bilevel Models and a Tailored Penalty Alternating Direction Method",
+    "authors": "Henri Lefebvre, Martin Schmidt",
+    "labels": [
+      "Explainability",
+ "Linear optimization", 
+"Counterfactual explanations", 
+"Bilevel optimization"
+    ],
+    "publications": [
+      {
+        "name": "European Journal of Operational Research",
+        "url": "https://doi.org/10.1016/j.ejor.2026.02.007",
+        "year": 2026,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null
+      }
+    ]
   }
 ]
