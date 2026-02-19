@@ -564,3 +564,47 @@
         "bibtex": null
       }
 ]
+},
+  {
+    "title": "OptiChat: Bridging Optimization Models and Practitioners with Large Language Models",
+    "authors": "Hao Chen, Gonzalo Esteban Constante-Flores, Krishna Sri Ipsit Mantri, Sai Madhukiran Kompalli, Akshdeep Singh Ahluwalia, Can Li",
+    "labels": [
+      "optimization models", 
+"large language models", 
+"model interpretability", 
+"decision support"
+    ],
+    "publications": [
+      {
+        "name": "INFORMS Journal on Data Science",
+        "url": "https://doi.org/10.1287/ijds.2025.0074",
+        "year": 2025,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null
+      }
+]
+},
+  {
+    "title": "Diagnosing Infeasible Optimization Problems Using Large Language Models",
+    "authors": "Hao Chen, Gonzalo E Constante-Flores, Can Li",
+    "labels": [
+      "infeasibility diagnosis",
+ "large language models", 
+"optimization", 
+"explainable AI"
+    ],
+    "publications": [
+      {
+        "name": "INFOR: Information Systems and Operational Research (Taylor & Francis)",
+        "url": "https://doi.org/10.1080/03155986.2024.2385189",
+        "year": 2024,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null
+      }
+    ]
+  }
+]
