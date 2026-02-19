@@ -22,5 +22,13 @@
     "year": "2025",
     "link": "https://github.com/industrial-optimization-group/DESDEO",
     "image": "https://desdeo.readthedocs.io/en/latest/assets/desdeo_logo.png"
+  },
+  {
+    "title": "OptiChat",
+    "description": "OptiChat is an interactive dialogue system powered by GPT4 LLM, augmented by Gurobi, Pyomo, predefined functions, and code generation, and aimed at helping practitioners interact with optimization models using natural language.",
+    "authors": "The Multiobjective Optimization Group",
+    "year": "2025",
+    "link": "https://github.com/li-group/OptiChat",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png"
   }
 ]
