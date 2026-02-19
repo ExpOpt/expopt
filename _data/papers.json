@@ -581,7 +581,9 @@
         "day": null,
         "dblp_key": null,
         "bibtex": null
-      },
+      }
+]
+},
   {
     "title": "Diagnosing Infeasible Optimization Problems Using Large Language Models",
     "authors": "Hao Chen, Gonzalo E Constante-Flores, Can Li",
