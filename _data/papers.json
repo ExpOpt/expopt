@@ -608,6 +608,27 @@
     ]
   },
   {
+    "title": "Enhancing explainability of stochastic programming solutions via scenario and recourse reduction",
+    "authors": "Tushar Rathi, Rishabh Gupta, Jose M. Pinto, Qi Zhang",
+    "labels": [
+      "Explainability",
+ "stochastic programming", 
+"scenario reduction", 
+"recourse reduction"
+    ],
+    "publications": [
+      {
+        "name": "Optimization & Engineering, 25, 795-820",
+        "url": "https://link.springer.com/article/10.1007/s11081-023-09825-9",
+        "year": 2024,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null
+      }
+    ]
+  },
+  {
     "title": "Computing Weak Counterfactual Explanations for Linear Optimization: A New Class of Bilevel Models and a Tailored Penalty Alternating Direction Method",
     "authors": "Henri Lefebvre, Martin Schmidt",
     "labels": [
