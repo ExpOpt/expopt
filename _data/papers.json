@@ -648,5 +648,25 @@
         "bibtex": null
       }
     ]
+  },
+  {
+    "title": "Evolutionary computation and explainable AI: A roadmap to understandable intelligent systems.",
+    "authors": "Ryan Zhou, Jaume Bacardit, Alexander Edward Ian Brownlee, Stefano Cagnoni, Martin Fyvie, Giovanni Iacca, John McCall, Niki van Stein, David Walker, Ting Hu",
+    "labels": [
+      "Explainable Artificial Intelligence",
+ "Evolutionary computation", 
+"Machine Learning"
+    ],
+    "publications": [
+      {
+        "name": "IEEE Transactions on Evolutionary Computation",
+        "url": "https://doi.org/10.1109/TEVC.2024.3476443",
+        "year": 2024,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null
+      }
+    ]
   }
 ]
