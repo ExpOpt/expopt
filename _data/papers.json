@@ -668,5 +668,25 @@
         "bibtex": null
       }
     ]
+  },
+  {
+    "title": "Explanations for combinatorial optimization problems.",
+    "authors": "Martin Erwig, and Prashant Kumar",
+    "labels": [
+      "Contrastive explanation",
+ "Explanation simplification", 
+"Combinatorial Optimization"
+    ],
+    "publications": [
+      {
+        "name": "Journal of Computer Languages",
+        "url": "https://doi.org/10.1016/j.cola.2024.101272",
+        "year": 2024,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null
+      }
+    ]
   }
 ]
