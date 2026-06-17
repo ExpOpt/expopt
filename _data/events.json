@@ -1,18 +1,18 @@
 [
   {
-    "title": "International Workshop on Explainability and Inter­pretability in Optimization",
-    "date": "September 17–18, 2025",
-    "location": "Energie Campus Nuremberg, Germany",
-    "description": "The workshop brings together international researchers and practitioners to discuss explainability and interpretability in mathematical optimization. While these concepts are gaining attention in areas like machine learning, they remain underexplored in optimization. The workshop aims to foster interdisciplinary dialogue, connect early-career and senior researchers, and bridge theory and practice. Key topics include: Conceptual frameworks for interpretability and explainability, Transparency in decision-making and solution processes, Human-centered optimization and model understanding, Fairness, interactivity, and rule-based approaches, Practical relevance and application-level insights",
-    "link": "https://www.wiwi.uni-passau.de/decisions/forschung/workshops",
-    "image": "https://images.seeklogo.com/logo-png/39/1/universitat-passau-logo-png_seeklogo-394524.png"
-  },
-  {
     "title": "Minisymposium on Explainability and Interpretability in Optimization",
     "date": "June 2, 2026",
     "location": "University of Edinburgh, United Kingdom",
     "description": "This minisymposium brings together international researchers to explore recent advances in explainability and interpretability in mathematical optimization. While these concepts have become central in machine learning, their systematic study within optimization is still in its early stages. The sessions aim to foster exchange between theory and applications, highlighting how optimization models and algorithms can become more transparent, trustworthy, and human-understandable. \nTopics may include conceptual frameworks for explainability, interpretability, transparency in decision-making processes, human-centered optimization, fairness and interactivity, as well as rule-based and application-driven approaches. The minisymposium aims to stimulate discussion between methodological and applied perspectives.",
     "link": "https://www.siam.org/conferences-events/siam-conferences/op26/",
     "image": "https://www.siam.org/media/5txanxkv/op26_logo_black.png"
+  },
+  {
+    "title": "International Workshop on Explainability and Inter­pretability in Optimization",
+    "date": "September 17–18, 2025",
+    "location": "Energie Campus Nuremberg, Germany",
+    "description": "The workshop brings together international researchers and practitioners to discuss explainability and interpretability in mathematical optimization. While these concepts are gaining attention in areas like machine learning, they remain underexplored in optimization. The workshop aims to foster interdisciplinary dialogue, connect early-career and senior researchers, and bridge theory and practice. Key topics include: Conceptual frameworks for interpretability and explainability, Transparency in decision-making and solution processes, Human-centered optimization and model understanding, Fairness, interactivity, and rule-based approaches, Practical relevance and application-level insights",
+    "link": "https://www.wiwi.uni-passau.de/decisions/forschung/workshops",
+    "image": "https://images.seeklogo.com/logo-png/39/1/universitat-passau-logo-png_seeklogo-394524.png"
   }
 ]
