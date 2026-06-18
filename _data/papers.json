@@ -689,25 +689,167 @@
       }
     ]
   },
- {
-    "title": "Explainable Optimization: A Call for Interdisciplinary Action.",
-    "authors": "Aydın, Nurşen, Ş. İlker Birbil, İlker Küçükparlak, and Altuğ Yalçıntaş",
-    "labels": [
-      "Explainability in Decision-Making",
- "Accountability in Optimization", 
-"Transparency",
-"Algorithmic Explanation"
-    ],
-    "publications": [
-      {
-        "name": "arXiv",
-        "url": "https://arxiv.org/abs/2606.08675",
-        "year": 2026,
-        "month": null,
-        "day": null,
-        "dblp_key": null,
-        "bibtex": null
-      }
-    ]
-  }
+{
+  "title": "Explainable Optimization: A Call for Interdisciplinary Action",
+  "authors": "Nurşen Aydın, Ş. İlker Birbil, İlker Küçükparlak, and Altuğ Yalçıntaş",
+  "labels": [
+    "Explainable optimization",
+    "Operations research",
+    "Interdisciplinary research"
+  ],
+  "publications": [
+    {
+      "name": "arXiv",
+      "url": "https://arxiv.org/abs/2606.08675",
+      "year": 2026,
+      "month": 6,
+      "day": 7,
+      "dblp_key": null,
+      "bibtex": null
+    }
+  ]
+},
+{
+  "title": "Explainable Optimization: Leveraging Large Language Models for User-Friendly Explanations",
+  "authors": "Bram Biemans, Pavel Troubil, Isel Grau, and Wim P. M. Nuijten",
+  "labels": [
+    "Explainable optimization",
+    "Large language models",
+    "Supply chain planning",
+    "Narrative explanation"
+  ],
+  "publications": [
+    {
+      "name": "World Conference on Explainable Artificial Intelligence",
+      "url": "https://doi.org/10.1007/978-3-032-08327-2_3",
+      "year": 2025,
+      "month": null,
+      "day": null,
+      "dblp_key": null,
+      "bibtex": null
+    }
+  ]
+},
+{
+  "title": "Explainable interactive evolutionary multiobjective optimization",
+  "authors": "Salvatore Corrente, Salvatore Greco, Benedetto Matarazzo, and Roman Słowiński",
+  "labels": [
+    "Explainable optimization",
+    "Evolutionary multiobjective optimization",
+    "Interactive decision-making"
+  ],
+  "publications": [
+    {
+      "name": "Omega",
+      "url": "https://doi.org/10.1016/j.omega.2023.102925",
+      "year": 2024,
+      "month": null,
+      "day": null,
+      "dblp_key": null,
+      "bibtex": null
+    }
+  ]
+},
+{
+  "title": "Why is My Route Different Today? An Algorithm for Explaining Route Selection",
+  "authors": "Aaron Schild, Sreenivas Gollapudi, Anupam Gupta, Kostas Kollias, and Ali Sinop",
+  "labels": [
+    "Route explanation",
+    "Traffic-aware routing",
+    "Combinatorial Optimization"
+  ],
+  "publications": [
+    {
+      "name": "arXiv",
+      "url": "https://arxiv.org/abs/2506.05604",
+      "year": 2025,
+      "month": 6,
+      "day": 5,
+      "dblp_key": null,
+      "bibtex": null
+    }
+  ]
+},
+{
+  "title": "Decision Information Meets Large Language Models: The Future of Explainable Operations Research",
+  "authors": "Yansen Zhang, Qingcan Kang, Wing Yin Yu, Hailei Gong, Xiaojin Fu, Xiongwei Han, Tao Zhong, and Chen Ma",
+  "labels": [
+    "Explainable operations research",
+    "Large language models",
+    "Decision information"
+  ],
+  "publications": [
+    {
+      "name": "arXiv",
+      "url": "https://arxiv.org/abs/2502.09994",
+      "year": 2025,
+      "month": 2,
+      "day": 14,
+      "dblp_key": null,
+      "bibtex": null
+    }
+  ]
+},
+{
+  "title": "Into the Black Box: Mining Variable Importance with XAI",
+  "authors": "Kelly Hunter, Sarah L. Thomson, and Emma Hart",
+  "labels": [
+    "Explainable artificial intelligence",
+    "Variable importance",
+    "Combinatorial Optimization"
+  ],
+  "publications": [
+    {
+      "name": "International Conference on the Applications of Evolutionary Computation",
+      "url": "https://doi.org/10.1007/978-3-031-90065-5_2",
+      "year": 2025,
+      "month": 4,
+      "day": 17,
+      "dblp_key": null,
+      "bibtex": null
+    }
+  ]
+},
+{
+  "title": "Variable Importance Estimation for High-Dimensional Optimisation",
+  "authors": "Kelly Hunter, Sarah L. Thomson, and Emma Hart",
+  "labels": [
+    "Explainable artificial intelligence",
+    "Variable importance",
+    "Pseudo-boolean optimisation",
+    "Combinatorial Optimization"
+  ],
+  "publications": [
+    {
+      "name": "UK Workshop on Computational Intelligence (UKCI 2025) — Advances in Computational Intelligence Systems (AISC, vol. 1468)",
+      "url": "https://doi.org/10.1007/978-3-032-07938-1_10",
+      "year": 2026,
+      "month": 1,
+      "day": 2,
+      "dblp_key": null,
+      "bibtex": null
+    }
+  ]
+},
+{
+  "title": "Towards Explainable Metaheuristics: Feature Extraction from Trajectory Mining",
+  "authors": "Martin Fyvie, John A. W. McCall, Lee A. Christie, Alexander E. I. Brownlee, and Manjinder Singh",
+  "labels": [
+    "Explainable metaheuristics",
+    "Trajectory mining",
+    "Evolutionary algorithms",
+    "Combinatorial Optimization"
+  ],
+  "publications": [
+    {
+      "name": "Expert Systems",
+      "url": "https://doi.org/10.1111/exsy.13494",
+      "year": 2023,
+      "month": null,
+      "day": null,
+      "dblp_key": null,
+      "bibtex": null
+    }
+  ]
+}
 ]
