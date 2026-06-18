@@ -688,5 +688,26 @@
         "bibtex": null
       }
     ]
+  },
+ {
+    "title": "Explainable Optimization: A Call for Interdisciplinary Action.",
+    "authors": "Aydın, Nurşen, Ş. İlker Birbil, İlker Küçükparlak, and Altuğ Yalçıntaş",
+    "labels": [
+      "Explainability in Decision-Making",
+ "Accountability in Optimization", 
+"Transparency",
+"Algorithmic Explanation"
+    ],
+    "publications": [
+      {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2606.08675",
+        "year": 2026,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null
+      }
+    ]
   }
 ]
