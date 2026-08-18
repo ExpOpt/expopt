@@ -873,5 +873,25 @@
         "bibtex": null
       }
     ]
+  },
+  {
+    "title": "Sparse Linear Surrogates for Interpretable Budget Allocation",
+    "authors": "Marc Goerigk, Michael Hartisch, Sebastian Merten",
+    "labels": [
+      "Interpretable optimization",
+      "surrogate",
+      "optimization"
+    ],
+    "publications": [
+      {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2608.01858",
+        "year": 2026,
+        "month": 8,
+        "day": 3,
+        "dblp_key": null,
+        "bibtex": null
+      }
+    ]
   }
 ]
