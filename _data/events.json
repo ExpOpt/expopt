@@ -14,5 +14,13 @@
     "description": "The workshop brings together international researchers and practitioners to discuss explainability and interpretability in mathematical optimization. While these concepts are gaining attention in areas like machine learning, they remain underexplored in optimization. The workshop aims to foster interdisciplinary dialogue, connect early-career and senior researchers, and bridge theory and practice. Key topics include: Conceptual frameworks for interpretability and explainability, Transparency in decision-making and solution processes, Human-centered optimization and model understanding, Fairness, interactivity, and rule-based approaches, Practical relevance and application-level insights",
     "link": "https://www.wiwi.uni-passau.de/decisions/forschung/workshops",
     "image": "https://images.seeklogo.com/logo-png/39/1/universitat-passau-logo-png_seeklogo-394524.png"
+  },
+{
+    "title": "Counterfactual Routing Competition",
+    "date": "2025",
+    "location": "34th International Joint Conference on Artificial Intelligence (IJCAI)",
+    "description": "This competition addresses the need for explainability in personalized route planning for wheelchair users. Path planners like A* and Dijkstra are able to generate optimal personalized routes based on a map with start and destination locations; however, they lack transparency about why certain routing decisions are made, for example why given streets are included in or excluded from the recommended route. This absence of explanation can lead to misunderstanding and mistrust—especially among users with limited mobility, who often have unique personal routing requirements and constraints. Beyond distance, factors like curb height, sidewalk width, and the number of crossings can significantly affect route suitability, and tradeoffs should be clearly communicated. The goal of the competition is to explain why a specific fact route was preferred to a different route by the given planner, taking into account the user constraints and preferences, by providing counterfactual explanations. A counterfactual example is shown in the figure below.",
+    "link": "https://sites.google.com/view/crc25-ijcai/home",
+    "image": ""
   }
 ]
