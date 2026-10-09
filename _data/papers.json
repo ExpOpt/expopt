@@ -162,7 +162,7 @@
     "title": "Towards robust interpretable surrogates for optimization",
     "authors": "Marc Goerigk, Michael Hartisch, Sebastian Merten",
     "labels": [
-      "interpretable",
+      "interpretability",
       "surrogate",
       "robustness"
     ],
@@ -184,7 +184,7 @@
     "labels": [
       "feature-based",
       "surrogate",
-      "optimization"
+      "interpretability"
     ],
     "publications": [
       {
@@ -223,7 +223,7 @@
     "authors": "Marc Goerigk, Michael Hartisch",
     "labels": [
       "decision trees",
-      "interpretable",
+      "interpretability",
       "optimization"
     ],
     "publications": [
@@ -265,7 +265,7 @@
       "artificial intelligence",
       "explainer",
       "nurse rostering",
-      "applciation"
+      "application"
     ],
     "publications": [
       {
@@ -551,7 +551,7 @@
     "labels": [
       "bilevel optimization",
       "counterfactual explanations",
-      "power system optimisation"
+      "power system optimization"
     ],
     "publications": [
       {
@@ -593,7 +593,7 @@
       "infeasibility diagnosis",
       "large language models",
       "optimization",
-      "explainable AI"
+      "explainable artificial intelligence"
     ],
     "publications": [
       {
@@ -611,7 +611,7 @@
     "title": "Enhancing explainability of stochastic programming solutions via scenario and recourse reduction",
     "authors": "Tushar Rathi, Rishabh Gupta, Jose M. Pinto, Qi Zhang",
     "labels": [
-      "Explainability",
+      "explainability",
       "stochastic programming",
       "scenario reduction",
       "recourse reduction"
@@ -632,10 +632,10 @@
     "title": "Computing Weak Counterfactual Explanations for Linear Optimization: A New Class of Bilevel Models and a Tailored Penalty Alternating Direction Method",
     "authors": "Henri Lefebvre, Martin Schmidt",
     "labels": [
-      "Explainability",
-      "Linear optimization",
-      "Counterfactual explanations",
-      "Bilevel optimization"
+      "explainability",
+      "linear optimization",
+      "counterfactual explanations",
+      "bilevel optimization"
     ],
     "publications": [
       {
@@ -653,9 +653,9 @@
     "title": "Evolutionary computation and explainable AI: A roadmap to understandable intelligent systems.",
     "authors": "Ryan Zhou, Jaume Bacardit, Alexander Edward Ian Brownlee, Stefano Cagnoni, Martin Fyvie, Giovanni Iacca, John McCall, Niki van Stein, David Walker, Ting Hu",
     "labels": [
-      "Explainable Artificial Intelligence",
-      "Evolutionary computation",
-      "Machine Learning"
+      "explainable artificial intelligence",
+      "evolutionary computation",
+      "machine learning"
     ],
     "publications": [
       {
@@ -673,9 +673,9 @@
     "title": "Explanations for combinatorial optimization problems.",
     "authors": "Martin Erwig, and Prashant Kumar",
     "labels": [
-      "Contrastive explanation",
-      "Explanation simplification",
-      "Combinatorial Optimization"
+      "contrastive explanation",
+      "explanation simplification",
+      "combinatorial optimization"
     ],
     "publications": [
       {
@@ -693,9 +693,9 @@
     "title": "Explainable Optimization: A Call for Interdisciplinary Action",
     "authors": "Nurşen Aydın, Ş. İlker Birbil, İlker Küçükparlak, and Altuğ Yalçıntaş",
     "labels": [
-      "Explainable optimization",
-      "Operations research",
-      "Interdisciplinary research"
+      "explainable optimization",
+      "operations research",
+      "interdisciplinary research"
     ],
     "publications": [
       {
@@ -713,10 +713,10 @@
     "title": "Explainable Optimization: Leveraging Large Language Models for User-Friendly Explanations",
     "authors": "Bram Biemans, Pavel Troubil, Isel Grau, and Wim P. M. Nuijten",
     "labels": [
-      "Explainable optimization",
-      "Large language models",
-      "Supply chain planning",
-      "Narrative explanation"
+      "explainable optimization",
+      "large language models",
+      "supply chain planning",
+      "narrative explanation"
     ],
     "publications": [
       {
@@ -734,9 +734,9 @@
     "title": "Explainable interactive evolutionary multiobjective optimization",
     "authors": "Salvatore Corrente, Salvatore Greco, Benedetto Matarazzo, and Roman Słowiński",
     "labels": [
-      "Explainable optimization",
-      "Evolutionary multiobjective optimization",
-      "Interactive decision-making"
+      "explainable optimization",
+      "evolutionary multiobjective optimization",
+      "interactive decision-making"
     ],
     "publications": [
       {
@@ -754,9 +754,9 @@
     "title": "Why is My Route Different Today? An Algorithm for Explaining Route Selection",
     "authors": "Aaron Schild, Sreenivas Gollapudi, Anupam Gupta, Kostas Kollias, and Ali Sinop",
     "labels": [
-      "Route explanation",
-      "Traffic-aware routing",
-      "Combinatorial Optimization"
+      "route explanation",
+      "traffic-aware routing",
+      "combinatorial optimization"
     ],
     "publications": [
       {
@@ -774,9 +774,9 @@
     "title": "Decision Information Meets Large Language Models: The Future of Explainable Operations Research",
     "authors": "Yansen Zhang, Qingcan Kang, Wing Yin Yu, Hailei Gong, Xiaojin Fu, Xiongwei Han, Tao Zhong, and Chen Ma",
     "labels": [
-      "Explainable operations research",
-      "Large language models",
-      "Decision information"
+      "explainable operations research",
+      "large language models",
+      "decision information"
     ],
     "publications": [
       {
@@ -794,9 +794,10 @@
     "title": "Into the Black Box: Mining Variable Importance with XAI",
     "authors": "Kelly Hunter, Sarah L. Thomson, and Emma Hart",
     "labels": [
-      "Explainable artificial intelligence",
-      "Variable importance",
-      "Combinatorial Optimization"
+      "explainable artificial intelligence",
+      "variable importance",
+      "feature importance",
+      "combinatorial optimization"
     ],
     "publications": [
       {
@@ -814,10 +815,11 @@
     "title": "Variable Importance Estimation for High-Dimensional Optimisation",
     "authors": "Kelly Hunter, Sarah L. Thomson, and Emma Hart",
     "labels": [
-      "Explainable artificial intelligence",
-      "Variable importance",
-      "Pseudo-boolean optimisation",
-      "Combinatorial Optimization"
+      "explainable artificial intelligence",
+      "variable importance",
+      "feature importance",
+      "pseudo-boolean optimization",
+      "combinatorial optimization"
     ],
     "publications": [
       {
@@ -835,10 +837,10 @@
     "title": "Towards Explainable Metaheuristics: Feature Extraction from Trajectory Mining",
     "authors": "Martin Fyvie, John A. W. McCall, Lee A. Christie, Alexander E. I. Brownlee, and Manjinder Singh",
     "labels": [
-      "Explainable metaheuristics",
-      "Trajectory mining",
-      "Evolutionary algorithms",
-      "Combinatorial Optimization"
+      "explainable metaheuristics",
+      "trajectory mining",
+      "evolutionary algorithms",
+      "combinatorial optimization"
     ],
     "publications": [
       {
@@ -856,11 +858,11 @@
     "title": "Generating Input Distributions for Explaining Portfolio Optimization Pipelines",
     "authors": "Batuhan Ataş, Nurşen Aydın, E. Mehmet Kıral, Ş. İlker Birbil",
     "labels": [
-      "Explainable optimization",
-      "End-to-end learning",
-      "Sampling methods",
+      "explainable optimization",
+      "end-to-end learning",
+      "sampling methods",
       "MCMC",
-      "Robust portfolio optimization"
+      "robust portfolio optimization"
     ],
     "publications": [
       {
@@ -878,7 +880,7 @@
     "title": "Sparse Linear Surrogates for Interpretable Budget Allocation",
     "authors": "Marc Goerigk, Michael Hartisch, Sebastian Merten",
     "labels": [
-      "Interpretable optimization",
+      "interpretability",
       "surrogate",
       "optimization"
     ],
@@ -895,12 +897,53 @@
     ]
   },
 {
+    "title": "CF-OPT: Counterfactual Explanations for Structured Prediction",
+    "authors": "Germain Vivier-Ardisson, Alexandre Forel, Axel Parmentier, Thibaut Vidal",
+    "labels": [
+      "counterfactual explanations",
+      "predict-then-optimize",
+      "end-to-end learning"
+    ],
+    "publications": [
+      {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2405.18293",
+        "year": 2024,
+        "month": 5,
+        "day": 28,
+        "dblp_key": null,
+        "bibtex": null
+      }
+    ]
+  },
+{
+    "title": "Decision-Value Attribution in Predict-then-Optimize Systems",
+    "authors": "Konstantinos Ziliaskopoulos, Alexander Vinel, Alice E. Smith",
+    "labels": [
+      "feature importance",
+      "predict-then-optimize",
+      "end-to-end learning",
+      "Shapley values"
+    ],
+    "publications": [
+      {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2606.29878",
+        "year": 2026,
+        "month": 6,
+        "day": 29,
+        "dblp_key": null,
+        "bibtex": null
+      }
+    ]
+  },
+{
     "title": "Explanations for Sequential Decision-Making–an Overview",
     "authors": "Hendrik Baier, Mark T. Keane, Sarath Sreedharan, Silvia Tulli, Abhinav Verma",
     "labels": [
-      "Sequential Decision-Making",
-      "Explanations",
-      "Survey"
+      "sequential decision-making",
+      "explanations",
+      "survey"
     ],
     "publications": [
       {
