@@ -938,6 +938,48 @@
     ]
   },
 {
+    "title": "Constraint Reasoning and Large Language Models Join Forces: Providing Contrastive Explanations for Real-World Optimisation-Based Applications",
+    "authors": "Roger X. Lera-Leri, Filippo Bistaffa,  Athina Georgara,  Juan Antonio Rodriguez-Aguilar",
+    "labels": [
+      "contrastive explanations",
+      "Large Language Models",
+      "constraint reasoning",
+      "decision support systems"
+    ],
+    "publications": [
+      {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2610.31119",
+        "year": 2026,
+        "month": 10,
+        "day": 22,
+        "dblp_key": null,
+        "bibtex": null
+      }
+    ]
+  },
+{
+    "title": "Learning to Explain Solutions of Optimal Control Problems",
+    "authors": "Jiyong Lee, Ilias Mitrai",
+    "labels": [
+      "graph neural networks",
+      "optimal control problems",
+      "dynamic optimization",
+      "decision support systems"
+    ],
+    "publications": [
+      {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2610.08493",
+        "year": 2026,
+        "month": 10,
+        "day": 6,
+        "dblp_key": null,
+        "bibtex": null
+      }
+    ]
+  },
+{
     "title": "Explanations for Sequential Decision-Making–an Overview",
     "authors": "Hendrik Baier, Mark T. Keane, Sarath Sreedharan, Silvia Tulli, Abhinav Verma",
     "labels": [
