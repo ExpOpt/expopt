@@ -998,5 +998,25 @@
         "bibtex": null
       }
     ]
+  },
+  {
+    "title": "An Explainable Dynamic Programming Framework for Interpreting Optimal Condition-Based Maintenance Policies",
+    "authors": "Stephane Barde, Hyunjoon Kim",
+    "labels": [
+      "condition-based maintenance",
+      "Markov decision process",
+      "explainable dynamic programming"
+    ],
+    "publications": [
+      {
+        "name": "European Journal of Operational Research",
+        "url": "https://doi.org/10.1016/j.ejor.2026.07.003",
+        "year": 2026,
+        "month": null,
+        "day": null,
+        "dblp_key": null,
+        "bibtex": null
+      }
+    ]
   }
 ]
